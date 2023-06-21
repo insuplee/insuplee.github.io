@@ -80,10 +80,46 @@ p {
 
 html{
 	scroll-behavior: smooth;
+	height: 300%
 }
 
-body,
-td,
+header {
+  height: 0px;
+  padding: 1.5rem;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;	
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+}
+
+body {
+  font-family: 'calibri', Verdana, Helvetica, sans-serif;
+  /*font-family: 'calibri';*/
+  /*font-size: 14px;*/
+  font-size: 15px;
+  text-decoration: none; 
+  padding-top: 75px;
+}
+
+td {
+  font-family: 'calibri', Verdana, Helvetica, sans-serif;
+  /*font-family: 'calibri';*/
+  /*font-size: 14px;*/
+  font-size: 15px;
+  text-decoration: none;  
+  border-bottom: 50px solid #fff;
+}
+
+
+tr,
 th,
 tr,
 a {
