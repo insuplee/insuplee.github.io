@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
+
+
 	<table style="max-width:760px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
           <td>
@@ -27,13 +29,16 @@
 					
                     <p style="text-align: center;font-size:50px; font-family:Verdana">
                         <span style="font-family:Calibri; font-size:65px"><b>Insup Lee</b></span><br>	
-						<span style="font-family:Georgia; font-size:20px"> Army Captain & Ph.D. Student </span> <br>						
-						<!--	  
-						<div class="topnav-centered">
-						<a href="#">Home</a> / <a class="nav-link" href="#publications">Publications</a>
-						</div>						
-						</nav>
-						-->													
+						<span style="font-family:Calibri; font-size:20px"> Army Captain & Ph.D. Student </span> <br>			
+						
+						<span style="font-family:Calibri; font-size:20px">
+							<a style="font-family:Calibri; font-size:20px" href="#">About</a> &nbsp / &nbsp
+							<a style="font-family:Calibri; font-size:20px" href="#education">Education</a> &nbsp / &nbsp
+							<!--<a style="font-family:Georgia; font-size:20px" href="#workex">Work Experience</a> /-->
+							<a style="font-family:Calibri; font-size:20px" href="#publications">Publications</a> &nbsp / &nbsp
+							<a style="font-family:Calibri; font-size:20px" href="#researchex">Research Experience</a>
+						</span>				
+						
 					</p>				
 					
 					<p style="text-align:center;">
@@ -59,14 +64,8 @@
 						<a href="https://www.linkedin.com/in/insuplee/">LinkedIn</span></a> /	
                         <a href="https://scholar.google.com/citations?user=cTyq1WcAAAAJ&hl=ko&oi=sra">Google Scholar</a> / 							
 						<a href="https://orcid.org/0000-0002-9822-9860">ORCiD</a>
-					</p>
-                </td>
-				
-				<!--
-                <td style="width:20%; background-color:#ffffff">
-					<img style="margin-left: 10%; margin-top: 10%; width:70%;  border-radius: 10px;" src="images/islee.jpg">
-                </td>
-				-->
+					</p>					
+                </td>				
 				
               </tr>
             </tbody>
@@ -79,9 +78,8 @@
 
 
 
-       <tr class="category">
-	
-            <td>
+       <tr class="category">	
+            <td id="education">
                 <span style="font-size:26px"><b>Education</b></span><br>
                 <ul>
                     <li>
@@ -106,7 +104,7 @@
 
 
 		<tr class="category">
-            <td>
+            <td id="workex">
                 <span style="font-size:26px"><b>Work Experience</b></span><br>
 				<span style="font-size:18px">Mandatory Military Service (Jun. 2018 - May 2025)</span> <br>
                 <ul>			
@@ -152,10 +150,8 @@
         </tr>	
 
 	
-<section id="publications">	
-		<tr class="category">			
-				
-            <td>	
+		<tr class="category">		
+            <td id="publications">	
 				<span style="font-size:26px"><b>Publications</b></span> <br>
                 <span style="font-size:18px">Conference & Journal Papers</b></span><br>
 				<ul>	
@@ -175,7 +171,7 @@
 					<a href="https://ieeexplore.ieee.org/abstract/document/10081390">[J.2]</a> 
 					UniQGAN: Towards Improved Modulation Classification With Adversarial Robustness Using Scalable Generator Design</span>
 					-->
-					<a href="https://ieeexplore.ieee.org/document/10081390">UniQGAN: Towards Improved Modulation Classification With Adversarial Robustness Using Scalable Generator Design</a> 
+					<a href="papers/uniqgan_tdsc.pdf">UniQGAN: Towards Improved Modulation Classification With Adversarial Robustness Using Scalable Generator Design</a> 
 					</span>
 					<br>
 					<b>Insup Lee</b> and Wonjun Lee
@@ -206,7 +202,6 @@
 					<br>
 					<b>Insup Lee</b> and Wonjun Lee
 					<br>
-					<!--<em>IEEE Communications Letters</em> (CL</span></b>)</span>, Feb. 2022.-->
 					<em>IEEE Communications Letters</b> (IEEE CL)</em></span>, Vol. 26, No. 2, pp. 355-358, Feb. 2022. 					
 					<br>
 					SCI 2020 I/F: 3.436; Top 37.36% Impact Factor in Telecommunications</span>
@@ -262,18 +257,16 @@
             </td>			
 			
         </tr>
-</section>
 
 
 		
 
 		<tr class="category">
-            <td>
+            <td id="researchex">
                 <span style="font-size:26px"><b>Research Experience</b></span><br>
-				
 				<span style="font-size:18px">Graduate Resesarch </b></span><br>
 					<ul>						
-						<li>		
+						<li>  	
 						Personal Research, <b>Scalable Generative Models for Adversarial Robustness in Intelligent Networks</b>, Korea University, Seoul, Republic of Korea (May 2020 - Present) 	
 						</li>
 						<ul>
@@ -288,8 +281,9 @@
 							</li>							
 							
 							<li>
-							Relevant Papers: 							
-							<a href="https://ieeexplore.ieee.org/document/10081390">IEEE TDSC'23</a>, 							
+							Relevant Papers: 
+							<!--IEEE TDSC'23 <a href="https://ieeexplore.ieee.org/abstract/document/10081390">[J.2]</a>,-->
+							<a href="papers/uniqgan_tdsc.pdf">IEEE TDSC'23</a>, 							
 							<a href="https://ieeexplore.ieee.org/document/9632543">IEEE CL'22</a> 
 							</li>								
 						</ul>
@@ -299,14 +293,14 @@
 						<!-- 
 						<b>Machine Learning-Based Network Intrusion Detection System </b> (Sep. 2019 - May. 2020)  
 						-->
-						Personal Research, <b>Continual Learning for Network Intrusion Detection Systems</b>, Korea University, Seoul, Republic of Korea (Sep. 2019 - May 2020) 	
+						Personal Research, <b>Machine Learning-Based Network Intrusion Detection Systems</b>, Korea University, Seoul, Republic of Korea (Sep. 2019 - Apr. 2020) 	
 						</li>
 						<ul>
 							<li>
 							Advisor: Prof. Wonjun Lee
 							</li>							
 							<li>
-							Keywords: network IDS, incremental learning, encrypted malware traffic, CIC-IDS2017 
+							Keywords: network IDS, continual learning, encrypted malware traffic, CIC-IDS2017 
 							</li>
 							<li>
 							Frameworks/Tools: scikit-learn
@@ -321,21 +315,21 @@
                 <span style="font-size:18px">Research Projects</b></span><br>				
 					<ul>
 						<!-- 
-						Project Title: Disrupting Objectives of Nation-Sponsored Cyber Attacks
+						Disruption of Nation-Sponsored Cyber Attack 
 						
 						Researcher, <b>Mitigations for Large-Scale Cyber Attacks With Natural Language Processing</b>, Future Challenge Defense Technology R&D Project, Agency for Defense Development (ADD), Defense Acquisition Program Administration, Republic of Korea (Apr. 2021 - <u>Present</u>)
 						
-						<a href="http://news.heraldcorp.com/military/view.php?ud=20201124000256">						
+						<a href="http://news.heraldcorp.com/military/view.php?ud=20201124000256">
 						-->
 						<li>                        
-						Researcher, <b>Natural Language Processing for AI-Empowered Cyber Threat Intelligence</b>, Agency for Defense Development (ADD), Republic of Korea (Apr. 2021 - Jun. 2023)<br> 
+						Researcher, <b>Disrupting Objectives of Nation-Sponsored Cyber Attacks</b>, Agency for Defense Development (ADD), Republic of Korea (Apr. 2021 - Jun. 2023)<br> 
 						</li>
 						<ul>	
 							<li> 
 							Project Manager: Dr. Changhee Choi
 							</li>
 							<li>
-							Keywords: CTI, NLP, embedding, data augmentation, cyber campaign, SOAR, MITRE ATT&CK, TTPs
+							Keywords: cyber threat intelligence, NLP, cyber campaigns, embedding, SOAR, MITRE ATT&CK
 							</li>
 							<li>
 							Frameworks/Tools: PyTorch, FastAPI, Git, PostgreSQL
@@ -355,7 +349,7 @@
 						<a href="https://m.anewsa.com/article_sub3.php?number=2026554#_enliple">
 						-->
 						<li>                        
-						Researcher, <b>Generative Adversarial Networks for Data-Augmented Cybersecurity</b>, Agency for Defense Development (ADD), Republic of Korea (Jun. 2019 - Oct. 2020) 
+						Researcher, <b>Cybersecurity Data Augmentation Based on Machine Learning</b>, Agency for Defense Development (ADD), Republic of Korea (Jun. 2019 - Oct. 2020) 
 						</li>
 						<ul>
 							<li> 
@@ -380,7 +374,7 @@
 						</li>
 						-->
 						<li>                        
-						Researcher, <b>Machine Learning for Anomaly Detection and Intrusion Detection Systems</b>, Agency for Defense Development (ADD), Republic of Korea (Aug. 2018 - May 2019) 
+						Researcher, <b>Integrated Proactive and Adaptive Defense Systems</b>, Agency for Defense Development (ADD), Republic of Korea (Aug. 2018 - May 2019) 
 						</li>
 						<ul>							
 							<li>

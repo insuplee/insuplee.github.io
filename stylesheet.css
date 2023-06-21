@@ -78,6 +78,10 @@ p {
 }
 .glanlink {color: #5858FA;}
 
+html{
+	scroll-behavior: smooth;
+}
+
 body,
 td,
 th,
