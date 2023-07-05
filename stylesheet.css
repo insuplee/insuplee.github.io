@@ -164,7 +164,7 @@ border-radius: .25em;
 */
 
 
-
+/*
 .label {
 display: inline-block;
 font-weight: bold;
@@ -172,7 +172,6 @@ line-height: 1;
 color: #fff;
 text-align: center;
 white-space: nowrap;
-/*vertical-align: middle;*/
 border-radius: .25em;
 }
 .label-ku { 
@@ -183,10 +182,26 @@ padding: .0em .4em .0em .4em;
 background-color: #FF9800; color:white;
 padding: .0em .05em .0em .05em;
 }
+*/
 
-.label-comm { background-color: #4CAF50; color:white}
-.label-ai { background-color: #FF9800; color:white; border-radius: top-left-x top-right-x bottom-right-x bottom-left-x}
-.label-sec { background-color: #F44336; color:white}
+.label {
+display: inline-block;
+font-size: 90%;
+font-weight: bold;
+line-height: 1;
+color: #fff;
+text-align: center;
+white-space: nowrap;
+border-radius: .25em;
+}
+.label-ku { 
+background-color: #dc143c; color:white;
+padding: .1em .55em .1em .55em;
+}
+.label-add { 
+background-color: #FF9800; color:white;
+padding: .1em .2em .1em .2em;
+}
 
 
 
