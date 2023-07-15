@@ -202,7 +202,10 @@ padding: .1em .5em .1em .5em;
 background-color: #FF9800; color:white;
 padding: .1em .2em .1em .2em;
 }
-
+.label-dcc { 
+background-color: #A0D468; color:white;
+padding: .1em .2em .1em .2em;
+}
 
 
 
@@ -235,8 +238,11 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
-/*.mycolorst{color:#a02; font-weight:bold}*/
-.mycolorst{color:#f00}
+.mycolorst{color:#000000;}
+/*.mycolorst{color:#f00}  
+ff5349
+4169e1
+crimson: #a02 */
 .crimsonst{color:#a02}
 .redst{color:#c00}
 .greenst{color:#090}
