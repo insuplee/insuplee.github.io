@@ -238,11 +238,17 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
+.namecolorst{color:#fc6a03;}  
 .mycolorst{color:#000000;}
 /*.mycolorst{color:#f00}  
+fc6a03 // tiger
+dd5713 // fire
+6A0DAD // purple
+ff4500  // orangered
 ff5349
-4169e1
-crimson: #a02 */
+4169e1  // royal blue 
+aa0022  // crimson
+*/
 .crimsonst{color:#a02}
 .redst{color:#c00}
 .greenst{color:#090}
