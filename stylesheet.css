@@ -239,7 +239,7 @@ tr.category>td{
 }
 
 .namecolorst{color:#fc6a03;}  
-.mycolorst{color:#000000;}
+.mycolorst{color:#000000; font-size:14px;}
 /*.mycolorst{color:#f00}  
 fc6a03 // tiger
 dd5713 // fire
