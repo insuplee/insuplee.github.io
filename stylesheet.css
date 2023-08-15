@@ -243,9 +243,13 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
-/*.namest{text-decoration:underline} */
+/*
+.namest{text-decoration:underline} 
+.targetcolorst{color:#aa0022;font-style:italic}  
+.targetcolorst2{color:#aa0022}
+*/
 .titlest{} 
-.namest{}
+.namest{font-weight:bold}
 .targetcolorst{color:#aa0022;font-style:italic}  
 .targetcolorst2{color:#aa0022}
 .namecolorst{color:#aa0022;font-weight:bold}  
