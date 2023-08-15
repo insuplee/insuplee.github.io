@@ -186,13 +186,12 @@ padding: .0em .05em .0em .05em;
 
 .label {
 display: inline-block;
-font-size: 90%;
 font-weight: bold;
 line-height: 1;
 color: #fff;
 text-align: center;
 white-space: nowrap;
-border-radius: .25em;
+border-radius: .5em;
 }
 .label-ku { 
 background-color: #dc143c; color:white;
@@ -205,6 +204,12 @@ padding: .1em .2em .1em .2em;
 .label-dcc { 
 background-color: #A0D468; color:white;
 padding: .1em .2em .1em .2em;
+}
+.label-tag { 
+background-color: #eee; color:black;
+padding: .0em .3em .0em .3em;
+font-size: 14px;
+white-space: nowrap;
 }
 
 
@@ -238,6 +243,11 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
+/*.namest{text-decoration:underline} */
+.titlest{} 
+.namest{}
+.targetcolorst{color:#aa0022;font-style:italic}  
+.targetcolorst2{color:#aa0022}
 .namecolorst{color:#aa0022;font-weight:bold}  
 .mycolorst{color:#000000; font-size:14px;}
 /*.mycolorst{color:#f00}  
