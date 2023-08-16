@@ -162,7 +162,7 @@ a:visited {
 a:hover {
   color: #ff7f00;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
