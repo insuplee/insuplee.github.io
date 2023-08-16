@@ -132,8 +132,9 @@ a {
 }
 .glanlink {color: #5858FA;}
 
+/*
 a:link {
-  color: #d02;
+  color: #dd0022;
   background-color: transparent;
   text-decoration: none;
 }
@@ -146,7 +147,24 @@ a:visited {
   color: #d02;
   background-color: transparent;
   text-decoration: none;
+}*/
+
+a:link {
+  color: #d02;
+  background-color: transparent;
+  text-decoration: none;
 }
+a:visited {
+  color: #d02;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff7f00;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 /*
 .label {
