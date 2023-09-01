@@ -302,14 +302,48 @@ tr.category>td{
 .namest{text-decoration:underline} 
 .targetcolorst{color:#aa0022;font-style:italic}  
 .targetcolorst2{color:#aa0022}
-*/
 .titlest{} 
-.namest{font-weight:bold}
-.targetcolorst{color:#aa0022;font-style:italic}  
-.targetcolorst2{color:#aa0022}
-.namecolorst{color:#aa0022;font-weight:bold}  
-.mycolorst{color:#000000; font-size:14px;}
+*/
+.titlest{
+	
+} 
+.namest{
+	color:#a02;	
+	font-weight:bold;
+	/*	
+	text-decoration:underline
+	*/
+	} 
+	
+.targetcolorst{
+	color:#000;
+	font-style:italic
+	}  
+.targetselected{
+	color:#000;
+	font-style:italic;
+	font-weight:bold
+	}  
+.targetresearch{
+	color:#aa0022;
+	/*
+	text-decoration:underline;
+	*/
+	}
+
+.mycolorst{
+	font-size:14px;
+	/*
+	color:#a02; 	
+	background-color:#f6f6f6;
+	*/
+	}
 /*.mycolorst{color:#f00}  
+CD5C5C  // Chestnut
+dd0022   // link
+FFE4C4  // Bisque 
+A52A2A  // Auburn
+ff7f00  // hover
 fc6a03 // tiger, 밝은 주황
 dd5713 // fire
 6A0DAD // purple
@@ -322,7 +356,10 @@ aa0022  // crimson
 .redst{color:#c00}
 .greenst{color:#090}
 .bluest{color:#00c}
-.ifrank{color:#c00;font-weight:bold;text-decoration:underline;background-color:#f6f6f6}
+.ifrank{color:#c00;
+font-weight:bold;
+text-decoration:underline;
+background-color:#f6f6f6}
 
 /*Publication Info Format*/
 .pub-image {
