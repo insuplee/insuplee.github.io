@@ -305,7 +305,7 @@ tr.category>td{
 .titlest{} 
 */
 .titlest{
-	
+
 } 
 .namest{
 	color:#a02;	
@@ -320,12 +320,11 @@ tr.category>td{
 	font-style:italic
 	}  
 .targetselected{
-	color:#000;
+	color:#ff4500;
 	font-style:italic;
-	font-weight:bold
 	}  
 .targetresearch{
-	color:#aa0022;
+	color:#ff4500;
 	/*
 	text-decoration:underline;
 	*/
