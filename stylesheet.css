@@ -134,6 +134,8 @@ header {
   /* width: 100% */
   left: 0;
   right: 0;
+  background-color: #fff;
+  boder-bottom: 1px solid #f5f5f5;
 }
 
 body {
@@ -154,6 +156,18 @@ td {
   /*border-bottom: 10px solid #fff;*/
    border-bottom: 20px solid #fff;
 }
+
+tr#education {
+	scroll-margin-top: 48px;
+}
+tr#researchex {
+	scroll-margin-top: 48px;
+}
+tr#publications {
+	scroll-margin-top: 48px;
+}
+
+
 
 
 tr,
@@ -325,6 +339,12 @@ tr.category>td{
 	}  
 .targetresearch{
 	color:#ff4500;
+	/*
+	text-decoration:underline;
+	*/
+	}
+.targetresearch2{
+	color:#aa2300;
 	/*
 	text-decoration:underline;
 	*/
