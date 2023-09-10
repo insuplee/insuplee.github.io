@@ -169,7 +169,12 @@ tr#publications {
 tr#skills {
 	scroll-margin-top: 48px;
 }
-
+tr#journal {
+	scroll-margin-top: 48px;
+}
+tr#conference {
+	scroll-margin-top: 48px;
+}
 
 
 
@@ -402,7 +407,7 @@ background-color:#f6f6f6}
 }
 
 .pub-contents {
-  width: 75%;
+  width: 70%;
   vertical-align: middle;
 }
 
