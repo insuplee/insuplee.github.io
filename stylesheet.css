@@ -218,9 +218,10 @@ a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #ff7f00;
+  /*color: #ff7f00;*/
   background-color: transparent;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  color: #f55;
 }
 
 
@@ -327,13 +328,14 @@ tr.category>td{
 .titlest{} 
 */
 .titlest{
-		font-weight:bold;
+		color:#a02;
 } 
 .pubnum{
-
+  /*color:#a02;*/
+  /*font-weight: bold;*/
 } 
 .namest{
-	color:#a02;	
+		
 	font-weight:bold;
 	/*	
 	text-decoration:underline
@@ -341,12 +343,15 @@ tr.category>td{
 	} 
 	
 .targetcolorst{
-	color:#000;
-	font-style:italic
+	color:#00c;
+	/*font-style:italic*/
 	}  
 .targetselected{
+	/*
 	color:#ff4500;
+	color:#00c;
 	font-style:italic;
+	*/
 	}  
 .targetresearch{
 	color:#ff4500;
