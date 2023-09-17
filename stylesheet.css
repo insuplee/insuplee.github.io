@@ -328,7 +328,7 @@ tr.category>td{
 .titlest{} 
 */
 .titlest{
-		color:#a02;
+		color:#000;
 } 
 .pubnum{
   /*color:#a02;*/
@@ -343,7 +343,8 @@ tr.category>td{
 	} 
 	
 .targetcolorst{
-	color:#00c;
+	color:#a02;
+	
 	/*font-style:italic*/
 	}  
 .targetselected{
@@ -356,6 +357,7 @@ tr.category>td{
 .targetresearch{
 	/*color:#ff4500;*/
 	color:#a02;
+	
 	/*
 	text-decoration:underline;
 	*/
