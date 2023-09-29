@@ -336,11 +336,10 @@ tr.category>td{
 	color:#000
 } 
 .pubnum{
-  /*color:#a02;*/
+  color:#fc6a03;
   /*font-weight: bold;*/
 } 
-.namest{
-		
+.namest{		
 	font-weight:bold;
 	/*	
 	text-decoration:underline
@@ -348,13 +347,12 @@ tr.category>td{
 	} 
 	
 .targetcolorst{
-	color:#a02;
-	
-	/*font-style:italic*/
+	color:#000;
+	font-style:italic;
 	}  
 .targetselected{
+	color:#ff5349;
 	/*
-	color:#ff4500;
 	color:#00c;
 	font-style:italic;
 	*/
@@ -377,6 +375,9 @@ tr.category>td{
 .myifst{
 	font-weight:bold;
 }
+.jcrst{
+	color:#000;
+	}
 .yearst{
 	font-size:14px;
 	}
