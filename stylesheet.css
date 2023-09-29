@@ -336,34 +336,34 @@ tr.category>td{
 	color:#000
 } 
 .pubnum{
-  color:#fc6a03;
+  /*color:#fc6a03;*/
+  color:#000;
   /*font-weight: bold;*/
 } 
+.targetresearch{
+	/*color:#ff4500;*/
+	color:#d02;	
+	}
 .namest{		
-	font-weight:bold;
-	/*	
-	text-decoration:underline
-	*/
+	/*color:#4169e1*/
+	color:#a02;	
+	font-weight: bold
 	} 
-	
-.targetcolorst{
-	color:#000;
-	}  
 .targetselected{
-	color:#ff5349;
+	color:#d02;
 	/*
 	color:#00c;
 	font-style:italic;
 	*/
 	}  
-.targetresearch{
-	/*color:#ff4500;*/
-	color:#fc6a03;
 	
-	/*
-	text-decoration:underline;
-	*/
-	}
+	
+	
+.targetcolorst{
+	color:#000;
+	}  
+
+
 .targetresearch2{
 	color:#aa2300;
 	/*
