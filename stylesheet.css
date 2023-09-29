@@ -350,7 +350,8 @@ tr.category>td{
 	font-weight: bold
 	} 
 .targetselected{
-	color:#d02;
+	color:#000;
+	font-weight: bold
 	/*
 	color:#00c;
 	font-style:italic;
@@ -363,7 +364,9 @@ tr.category>td{
 	color:#000;
 	}  
 
-
+.highlightst{
+	color:#d02
+}
 .targetresearch2{
 	color:#aa2300;
 	/*
