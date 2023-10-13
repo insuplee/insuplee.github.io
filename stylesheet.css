@@ -342,7 +342,7 @@ tr.category>td{
 } 
 .targetresearch{
 	/*color:#ff4500;*/
-	color:#d02;	
+	color:#000;	
 	}
 .namest{		
 	/*color:#4169e1*/
@@ -365,7 +365,8 @@ tr.category>td{
 	}  
 
 .highlightst{
-	color:#d02
+	/*color:#d02;*/
+	color:#d02;
 }
 .targetresearch2{
 	color:#aa2300;
