@@ -325,6 +325,16 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
+.newsdate{
+	/*color:#a02;*/
+	}  
+
+.newstitle{
+	color:#000;
+	/*font-weight: bold;*/
+	font-style:italic
+	}  
+
 
 /*
 .namest{text-decoration:underline} 
@@ -362,6 +372,7 @@ tr.category>td{
 	
 .targetcolorst{
 	color:#000;
+	/*font-style:italic*/
 	}  
 
 .highlightst{
