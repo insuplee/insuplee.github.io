@@ -157,6 +157,9 @@ td {
    border-bottom: 20px solid #fff;
 }
 
+tr#news {
+	scroll-margin-top: 48px;
+}
 tr#education {
 	scroll-margin-top: 48px;
 }
