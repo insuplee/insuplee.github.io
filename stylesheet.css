@@ -346,12 +346,14 @@ tr.category>td{
 .titlest{} 
 */
 .titlest{
-	color:#000
+	color:#000;
+	/*font-weight: bold;	*/
 } 
 .pubnum{
   /*color:#fc6a03;*/
   color:#000;
-  /*font-weight: bold;*/
+  /*font-style:italic;*/
+ 
 } 
 .targetresearch{
 	/*color:#ff4500;*/
@@ -359,12 +361,13 @@ tr.category>td{
 	}
 .namest{		
 	/*color:#4169e1*/
-	color:#a02;	
-	font-weight: bold
+	/*color:#a02;	
+	font-weight: bold*/
+	text-decoration:underline;
 	} 
 .targetselected{
-	color:#000;
-	/*font-weight: bold*/
+	color:#a02;
+	font-weight: bold
 	/*
 	color:#00c;
 	font-style:italic;
