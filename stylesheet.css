@@ -178,7 +178,12 @@ tr#journal {
 tr#conference {
 	scroll-margin-top: 48px;
 }
-
+tr#awards {
+	scroll-margin-top: 48px;
+}
+tr#talks {
+	scroll-margin-top: 48px;
+}
 
 
 tr,
