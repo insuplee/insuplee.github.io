@@ -342,6 +342,7 @@ tr.category>td{
 
 .newstarget{
 	color:#a02;
+	font-weight: bold
 	}  
 .newsdate{
 	/*color:#a02;*/
@@ -369,9 +370,9 @@ tr.category>td{
 	}
 .namest{		
 	/*color:#4169e1*/
-	/*color:#a02;	
-	font-weight: bold*/
-	text-decoration:underline;
+	color:#000;
+	font-weight: bold
+	/*text-decoration:underline;*/
 	} 
 .targetselected{
 	color:#a02;
