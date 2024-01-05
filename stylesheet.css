@@ -355,7 +355,7 @@ tr.category>td{
 .titlest{} 
 */
 .titlest{
-	color:#000;
+	
 	/*font-weight: bold;	*/
 } 
 .pubnum{
@@ -370,7 +370,7 @@ tr.category>td{
 	}
 .namest{		
 	/*color:#4169e1*/
-	color:#000;
+	color:#a02;
 	font-weight: bold
 	/*text-decoration:underline;*/
 	} 
