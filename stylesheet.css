@@ -458,3 +458,12 @@ background-color:#f6f6f6}
   vertical-align: middle;
 }
 
+
+.small-caps {
+  font-variant-caps: small-caps;
+  /*font-style: italic;*/
+}
+.normal {
+  font-variant-caps: normal;
+  font-style: italic;
+}
