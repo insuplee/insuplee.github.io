@@ -359,8 +359,8 @@ tr.category>td{
 	/*font-weight: bold;	*/
 } 
 .pubnum{
-  /*color:#fc6a03;*/
-  color:#000;
+  color:#a02;
+  /*color:#000;*/
   /*font-style:italic;*/
  
 } 
@@ -370,7 +370,7 @@ tr.category>td{
 	}
 .namest{		
 	/*color:#4169e1*/
-	color:#a02;
+	color:#000;
 	font-weight: bold
 	/*text-decoration:underline;*/
 	} 
