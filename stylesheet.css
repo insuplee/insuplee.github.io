@@ -333,6 +333,10 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
+.newshighlight{
+	color:#d02;
+	/*font-weight: bold;*/
+	}  
 .newstitle{
 	color:#000;
 	/*font-weight: bold;*/
@@ -356,7 +360,7 @@ tr.category>td{
 	/*font-weight: bold;	*/
 } 
 .pubnum{
-  color:#d02;
+  color:#000;
   /*color:#000;*/
   /*font-style:italic;*/
  
@@ -372,8 +376,7 @@ tr.category>td{
 	/*text-decoration:underline;*/
 	} 
 .targetselected{
-	color:#a02;
-	font-weight: bold
+	color:#fc6a03;
 	/*
 	color:#00c;
 	font-style:italic;
@@ -429,6 +432,7 @@ ff5349
 4169e1  // royal blue 
 aa0022  // crimson
 */
+.dst{color:#d02}
 .crimsonst{color:#a02}
 .redst{color:#c00}
 .greenst{color:#090}
