@@ -383,6 +383,11 @@ tr.category>td{
 	*/
 	}  
 	
+.covernamest{		
+	/*color:#4169e1*/
+	color:#c02;
+	/*text-decoration:underline;*/
+	} 
 	
 	
 .targetcolorst{
@@ -444,8 +449,9 @@ background-color:#f6f6f6}
 
 /*Publication Info Format*/
 .pub-image {
+  /*padding-left: 3%;*/
   padding-left: 3%;
-  width: 25%; /*35, 65*/
+  width: 17%; /*35, 65*/
   vertical-align: middle;
 }
 
@@ -455,7 +461,7 @@ background-color:#f6f6f6}
 }
 
 .pub-contents {
-  width: 70%;
+  width: 83%;
   vertical-align: middle;
 }
 
