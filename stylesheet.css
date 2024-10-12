@@ -333,6 +333,9 @@ tr.category>td{
   margin-bottom: 12px;
 }
 
+.newshighlight2{
+color:#d02;
+	}  
 .newshighlight{
 	color:#d02;
 	/*font-weight: bold;*/
@@ -360,7 +363,7 @@ tr.category>td{
 	/*font-weight: bold;	*/
 } 
 .pubnum{
-  color:#000;
+  color:#d02;
   /*color:#000;*/
   /*font-style:italic;*/
  
@@ -376,6 +379,7 @@ tr.category>td{
 	/*text-decoration:underline;*/
 	} 
 .targetselected{
+
 	/*
 	color:#d02;
 	color:#00c;
@@ -451,7 +455,7 @@ background-color:#f6f6f6}
 .pub-image {
   /*padding-left: 3%;*/
   padding-left: 3%;
-  width: 17%; /*35, 65*/
+  width: 20%; /*35, 65*/
   vertical-align: middle;
 }
 
