@@ -297,8 +297,13 @@ font-size: 14px;
 white-space: nowrap;
 }
 
+.period{
+/*font-size: 0.85em;*/
+} 
 
-
+.libold{
+ /*font-weight: bold;*/
+} 
 
 /*Lato, calibri, arial, times new roman*/
 
@@ -394,6 +399,11 @@ color:#d02;
 	} 
 	
 	
+	
+.superhighlightst{
+	color:#d02;
+	/*font-style:italic*/
+	}  	
 .targetcolorst{
 	color:#000;
 	/*font-style:italic*/
