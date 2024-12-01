@@ -364,12 +364,12 @@ color:#d02;
 .titlest{} 
 */
 .titlest{
-	
+	font-weight: bold
 	/*font-weight: bold;	*/
 } 
 .pubnum{
   color:#d02;
-  /*color:#000;*/
+  /*color:#fc6a03;*/
   /*font-style:italic;*/
  
 } 
@@ -380,17 +380,10 @@ color:#d02;
 .namest{		
 	/*color:#4169e1*/
 	color:#000;
-	font-weight: bold
-	/*text-decoration:underline;*/
+	/*font-weight: bold*/
+	text-decoration:underline;
 	} 
-.targetselected{
 
-	/*
-	color:#d02;
-	color:#00c;
-	font-style:italic;
-	*/
-	}  
 	
 .covernamest{		
 	/*color:#4169e1*/
@@ -405,10 +398,17 @@ color:#d02;
 	/*font-style:italic*/
 	}  	
 .targetcolorst{
-	color:#000;
+	color:#aa0022;
 	/*font-style:italic*/
 	}  
-
+.targetselected{
+	color:#aa0022;
+	/*
+	color:#d02;
+	color:#00c;
+	font-style:italic;
+	*/
+	}  
 .highlightst{
 	/*color:#d02;*/
 	/*color:#d02;*/
