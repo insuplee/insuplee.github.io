@@ -409,12 +409,13 @@ font-weight: 500;
 	/*font-style:italic*/
 	}  	
 .targetcolorst{
-	color:#aa0022;
+	/*color:#aa0022;*/
+	color:#000;
 	font-weight: 500;
 	/*font-style:italic*/
 	}  
 .targetselected{
-	color:#aa0022;
+	color:#000;
 	font-weight: 500;
 	/*
 	color:#d02;
@@ -478,7 +479,7 @@ background-color:#f6f6f6}
 .pub-image {
   /*padding-left: 3%;*/
   padding-left: 3%;
-  width: 20%; /*35, 65*/
+  width: 22%; /*35, 65*/
   vertical-align: middle;
 }
 
