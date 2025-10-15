@@ -369,13 +369,21 @@ font-weight: 500;
 .targetcolorst2{color:#aa0022}
 .titlest{} 
 */
+.bkscore{
+  color:#20d;
+  /*color:#fc6a03;*/
+  /*font-style:italic;*/ 
+} 
+
 .titlest{
 	 font-weight: 500; /* bold보다 약간 덜 굵게 */
 	/*font-weight: bold;	*/
 } 
 .pubnum{
+  color:#000;
+  /*
   color:#d02;
-  /*color:#fc6a03;*/
+  color:#fc6a03;*/
   /*font-style:italic;*/
  
 } 
@@ -415,8 +423,8 @@ font-weight: 500;
 	/*font-style:italic*/
 	}  
 .targetselected{
+	font-weight:bold;
 	color:#000;
-	font-weight: 500;
 	/*
 	color:#d02;
 	color:#00c;
