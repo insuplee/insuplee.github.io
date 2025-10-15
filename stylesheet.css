@@ -376,7 +376,7 @@ font-weight: 500;
 } 
 
 .titlest{
-	 font-weight: 500; /* bold보다 약간 덜 굵게 */
+	 /*font-weight: 500;*/ /* bold보다 약간 덜 굵게 */
 	/*font-weight: bold;	*/
 } 
 .pubnum{
