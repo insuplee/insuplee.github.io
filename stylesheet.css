@@ -370,12 +370,15 @@ font-weight: 500;
 .titlest{} 
 */
 .bkscore{
-  color:#20d;
-  /*color:#fc6a03;*/
+  color:#000;
+  /*
+   color:#20d;
+  color:#fc6a03;*/
   /*font-style:italic;*/ 
 } 
 
 .titlest{
+	font-weight: 500
 	 /*font-weight: 500;*/ /* bold보다 약간 덜 굵게 */
 	/*font-weight: bold;	*/
 } 
@@ -415,16 +418,27 @@ font-weight: 500;
 .superhighlightst{
 	color:#d02;
 	/*font-style:italic*/
-	}  	
+	}  
+	
 .targetcolorst{
-	/*color:#aa0022;*/
+	/*
 	color:#000;
+	*/
+	color:#a02;
+	font-style:italic;
+	font-weight: 500;
+	/*color:#aa0022;*/	
 	/*font-weight: 500;*/
 	/*font-style:italic*/
-	}  
+	}  	
 .targetselected{
+	/*
 	font-weight:bold;
 	color:#000;
+	*/
+	color:#a02;
+	font-style:italic;
+	font-weight: 500;
 	/*
 	color:#d02;
 	color:#00c;
