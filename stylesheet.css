@@ -421,20 +421,15 @@ font-weight: 500;
 	}  
 	
 .targetcolorst{
-	color:#a02;
-	
 	/*
 	color:#000;
 	*/
-	/*color:#a02;*/
-	/*font-weight: 500;*/
+	color:#a02;
+	font-weight: 500;
 	/*color:#aa0022;*/	
 	/*font-weight: 500;*/
 	/*font-style:italic*/
 	}  	
-.linkpaper{
-	color:#000;
-}
 .targetselected{
 	/*
 	font-weight:bold;
@@ -442,6 +437,7 @@ font-weight: 500;
 	*/
 	color:#a02;
 	font-weight: 500;
+	font-weight:bold;
 	/*
 	color:#d02;
 	color:#00c;
