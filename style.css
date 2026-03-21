@@ -867,8 +867,7 @@ strong { font-weight: 600; }
   font-size: 0.74rem;
   font-weight: 700;
   color: var(--accent);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   margin-bottom: 4px;
 }
 .award-body h3 {
