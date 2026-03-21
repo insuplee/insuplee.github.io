@@ -772,8 +772,8 @@ strong { font-weight: 600; }
   box-shadow: 0 0 0 2px rgba(200,16,46,0.15);
 }
 .timeline-marker--edu {
-  background: var(--indigo);
-  box-shadow: 0 0 0 2px rgba(79,70,229,0.15);
+  background: var(--accent);
+  box-shadow: 0 0 0 2px rgba(200,16,46,0.15);
 }
 
 .timeline-card {
@@ -793,8 +793,7 @@ strong { font-weight: 600; }
   font-size: 0.77rem;
   font-weight: 600;
   color: var(--accent);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  letter-spacing: 0.02em;
   margin-bottom: 5px;
 }
 .timeline-card h4 {
