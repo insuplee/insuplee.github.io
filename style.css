@@ -680,7 +680,7 @@ strong { font-weight: 600; }
 }
 
 .pub-thumb {
-  width: 130px;
+  width: 170px;
   flex-shrink: 0;
 }
 .pub-thumb img {
@@ -736,6 +736,30 @@ strong { font-weight: 600; }
 .rank-suffix { color: var(--accent); }
 
 .pub-tags { display: none; }
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  text-decoration: none;
+  transition: color var(--t), border-color var(--t);
+}
+.pub-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 
 /* ============================================================
    TIMELINE
