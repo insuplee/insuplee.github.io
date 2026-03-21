@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insup Lee | AI &amp; Security Researcher</title>
+  <meta name="description" content="Insup Lee - AI & Security Researcher, Ph.D. Candidate at Korea University. Research on generative models, cybersecurity, and LLM vulnerabilities." />
+  <link rel="icon" type="image/x-icon" href="files/islee.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Insup Lee</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="files/cv_insuplee.pdf" class="nav-cv" target="_blank">
+            CV &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO ======================== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <div class="hero-badge fade-up">
+          <span class="badge-dot"></span>AI &times; Cybersecurity
+        </div>
+        <h1 class="hero-name fade-up">Insup Lee</h1>
+        <p class="hero-title fade-up">Ph.D. Candidate in Cybersecurity</p>
+        <p class="hero-affil fade-up">
+          <img src="files/korea_univ_logo.JPG" alt="Korea University" class="affil-logo" />
+          Korea University &nbsp;·&nbsp; Seoul &amp; Abu Dhabi
+        </p>
+      <!-- 
+        <p class="hero-tagline fade-up">
+          Designing <em>domain-specific generative models</em> (DiT, GAN) to address
+          data scarcity in <strong>wireless/RF security</strong>, <strong>side-channel analysis</strong>,
+          and <strong>cyber threat intelligence</strong>, while investigating
+          <em>vulnerabilities in LLMs &amp; agentic AI</em>.
+        </p>
+      -->
+        <p class="hero-tagline fade-up">
+          Designing <em>domain-specific generative models</em> (DiT, GAN) to address
+          data insufficiency issues in cybersecurity, while investigating
+          <em>vulnerabilities in LLMs &amp; agentic AI</em>.
+        </p>
+        <div class="hero-links fade-up">
+          <a href="#publications" class="btn-primary">Publications</a>
+          <a href="files/cv_insuplee.pdf" class="btn-secondary" target="_blank">
+            <i class="fa-regular fa-file-pdf"></i> Full CV
+          </a>
+        </div>
+        <div class="hero-socials fade-up">
+          <a href="mailto:islee94@korea.ac.kr" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=cTyq1WcAAAAJ&hl=ko&oi=sra" target="_blank" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+          <a href="https://linkedin.com/in/insuplee" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://orcid.org/0000-0002-9822-9860" target="_blank" title="ORCiD"><i class="fa-brands fa-orcid"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo fade-up">
+        <div class="photo-ring">
+          <img src="files/abudhabi_bear.jpg" alt="Insup Lee" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ======================== ABOUT ======================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am an <strong>AI &amp; Security Researcher</strong> based in both the UAE and South Korea.
+            My approach to security research is built on <strong>five years of experience</strong> at the
+            Agency for Defense Development (ADD), as well as international joint projects with the
+            <strong>UAE Ministry of Defense</strong>.
+          </p>
+          <p>
+            As a Ph.D. candidate in Cybersecurity at Korea University, I have mainly explored
+            <strong>how generative models can improve cybersecurity</strong>, designing diffusion
+            transformers (DiT) and GANs to address data insufficiency in physical and wireless security,
+            including RF signal processing and side-channel analysis.
+          </p>
+          <p>
+            For my next steps, I plan to investigate the flip side:
+            <strong>uncovering the inherent vulnerabilities within LLMs and agentic AI systems</strong>,
+            applying my structural understanding of generative models to ensure their trustworthiness.
+          </p>
+          <div class="service-row">
+            <span class="service-label">Reviewer:</span>
+            <div class="service-venues">
+              <span class="tag">IEEE TDSC</span>
+              <span class="tag">IEEE TIFS</span>
+              <span class="tag">IEEE TCOM</span>
+              <span class="tag">IEEE JSAC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== RESEARCH ======================== -->
+  <section id="research" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Research</h2>
+      <p class="section-sub reveal">My research sits at the intersection of AI and cybersecurity.</p>
+      <div class="research-grid">
+
+        <div class="research-card reveal">
+          <div class="research-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3>Generative Models for Security</h3>
+          <p>
+            Designing security-specific generative models (diffusion transformers, GANs)
+            to address data insufficiency in physical and wireless security,
+            including RF signal processing and side-channel analysis (SCA).
+          </p>
+          <div class="research-tags">
+            <span class="tag">Diffusion Transformers</span>
+            <span class="tag">GANs</span>
+            <span class="tag">Side-Channel Analysis</span>
+            <span class="tag">RF Security</span>
+          </div>
+        </div>
+
+        <div class="research-card reveal">
+          <div class="research-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>Cyber Threat Intelligence</h3>
+          <p>
+            Advancing CTI using NLP and LLMs to analyze attack campaigns:
+            TTP extraction, attribution, and generating campaign variants
+            for group identification.
+          </p>
+          <div class="research-tags">
+            <span class="tag">NLP / LLM</span>
+            <span class="tag">MITRE ATT&amp;CK</span>
+            <span class="tag">TTP Extraction</span>
+            <span class="tag">APT Attribution</span>
+          </div>
+        </div>
+
+        <div class="research-card reveal">
+          <div class="research-icon">
+            <i class="fa-solid fa-brain"></i>
+          </div>
+          <h3>Securing AI <span class="new-badge">Next Focus</span></h3>
+          <p>
+            Transitioning toward securing AI itself, applying structural understanding
+            of generative models to investigate vulnerabilities within LLMs and
+            agentic AI systems, and to ensure their trustworthiness.
+          </p>
+          <div class="research-tags">
+            <span class="tag">LLM Security</span>
+            <span class="tag">Agentic AI</span>
+            <span class="tag">Adversarial ML</span>
+            <span class="tag">AI Safety</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== EDUCATION ======================== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline" style="margin-top:40px;">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker timeline-marker--edu"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Sep 2019 &ndash; Present</span>
+            <h4>Ph.D. Candidate in Cybersecurity</h4>
+            <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
+            <p>
+              <em>Domain-Specific Generative Models for Data Augmentation in Multi-Layer Cybersecurity</em><br />
+              Advisors: Prof. Sangjin Lee &amp; Prof. Seokhie Hong &nbsp;|&nbsp; Expected: Aug 2026
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker timeline-marker--edu"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Mar 2014 &ndash; Feb 2018</span>
+            <h4>B.E. in Cyber Defense</h4>
+            <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
+            <p>Full Tuition Scholarship, Ministry of National Defense &nbsp;|&nbsp; Advisor: Prof. Jongin Lim</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== WORK ======================== -->
+  <section id="work" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Employment History</h2>
+      <div class="timeline" style="margin-top:40px;">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Sep 2025 &ndash; Feb 2026</span>
+            <h4>Lecturer</h4>
+            <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
+            <p>Taught graduate-level course in Computer Networks.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Mar 2025 &ndash; Jun 2025</span>
+            <h4>Research Intern</h4>
+            <p class="timeline-org">Indiana University Bloomington, Remote</p>
+            <p>Explored adversarial attacks on ML systems in autonomous vehicles (Advisor: Prof. Hyungsub Kim).</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Aug 2023 &ndash; May 2025</span>
+            <h4>Security Engineer (Cyber Officer)</h4>
+            <p class="timeline-org">Ministry of National Defense, Republic of Korea / UAE</p>
+            <ul>
+              <li>Led international joint research on AI-based security with the UAE Ministry of Defense as PI</li>
+              <li>Investigated AI-based RF signal analysis for drone security [J6]</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Jul 2018 &ndash; Jul 2023</span>
+            <h4>Researcher</h4>
+            <p class="timeline-org">Agency for Defense Development (ADD), Seoul, Republic of Korea</p>
+            <ul>
+              <li>Conducted AI-based security research and in-house software development (PI/Mentor: Prof. Changhee Choi)</li>
+              <li>Analyzed nation-sponsored cyber attacks using NLP technologies [J1&ndash;J3, J5]</li>
+              <li>Applied generative models for cybersecurity data augmentation [C1, C2]</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PUBLICATIONS ======================== -->
+  <section id="publications" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Publications</h2>
+      <div class="pub-tabs reveal">
+        <button class="pub-tab active" data-filter="paper">Int'l Papers</button>
+        <button class="pub-tab" data-filter="review">Under Review</button>
+        <button class="pub-tab" data-filter="patent">Patents</button>
+        <button class="pub-tab" data-filter="domestic">Domestic Papers</button>
+      </div>
+
+      <div class="pub-list">
+
+        <!-- ===== PAPERS: sorted newest first (journal + conference mixed) ===== -->
+
+        <!-- 2026 -->
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-conf">C3</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/c3_multicore.jpg" alt="DAC Multicore" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Exploiting Per-Core Leakage: Electromagnetic Side-Channel Monitoring of Multicore Architectures</p>
+            <p class="pub-authors">D. Bae, S. Park, <strong>I. Lee</strong>, Y. Jung, K. Lee, H. Kim, and S. Hong</p>
+            <p class="pub-venue">
+              <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, Jul. 2026
+            </p>
+            <p class="pub-rank"><span class="rank-badge">BK21+ IF: 3</span> &nbsp;&middot;&nbsp; Top-tier EDA/Hardware conference</p>
+            <div class="pub-tags">
+              <span class="tag">EM Side-Channel</span><span class="tag">Multicore</span><span class="tag">Hardware Security</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J8</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j8_leakdit.jpg" alt="LeakDiT" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">LeakDiT: Diffusion Transformers for Trace-Augmented Side-Channel Analysis</p>
+            <p class="pub-authors"><strong>I. Lee</strong>, D. Bae, S. Hong, and S. Lee</p>
+            <p class="pub-venue">
+              <em>IEEE Computer Architecture Letters</em>, Vol. 25, No. 1, pp. 5&ndash;8, Jan./Jun. 2026
+            </p>
+            <div class="pub-tags">
+              <span class="tag">Diffusion Transformer</span>
+              <span class="tag">Side-Channel Analysis</span>
+              <span class="tag">Data Augmentation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2025 -->
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J7</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j7_llm.jpg" alt="LLM TTP" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Multi-Step LLM Pipeline for Enhancing TTP Extraction in Cyber Threat Intelligence</p>
+            <p class="pub-authors">H. Kim, D. Lee, <strong>I. Lee</strong>, S. Lee, and S. Lee</p>
+            <p class="pub-venue"><em>IEEE Access</em>, Vol. 13, pp. 179696&ndash;179710, Oct. 2025</p>
+            <div class="pub-tags">
+              <span class="tag">LLM</span><span class="tag">CTI</span><span class="tag">TTP Extraction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J6</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j6_sighawk.jpg" alt="Drone SPL" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Enhancing Modulation Classification via Diffusion Transformers for Drone Video Signal Processing</p>
+            <p class="pub-authors"><strong>I. Lee</strong>, K. Alteneiji, and M. Alghfeli</p>
+            <p class="pub-venue"><em>IEEE Signal Processing Letters</em>, Vol. 32, pp. 3325&ndash;3329, Aug. 2025</p>
+            <div class="pub-tags">
+              <span class="tag">Diffusion Transformer</span><span class="tag">Drone Security</span><span class="tag">RF Classification</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J5</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j5_mucamp.jpg" alt="MuCamp" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">MuCamp: Generating Cyber Campaign Variants via TTP Synonym Replacement for Group Attribution</p>
+            <p class="pub-authors"><strong>I. Lee</strong> and C. Choi</p>
+            <p class="pub-venue">
+              <em>IEEE Transactions on Information Forensics and Security (<strong>TIFS</strong>)</em>,
+              Vol. 20, pp. 6162&ndash;6174, Jun. 2025
+            </p>
+            <p class="pub-rank"><span class="rank-badge">JCR 2024 Top 7.8% &nbsp;in CS Theory &amp; Methods</span> &nbsp;&middot;&nbsp; Top-tier security journal</p>
+            <div class="pub-tags">
+              <span class="tag">CTI</span><span class="tag">TTP Augmentation</span><span class="tag">APT Attribution</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2024 -->
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J4</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j4_uniggan.jpg" alt="UniQGAN" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">UniQGAN: Towards Improved Modulation Classification With Adversarial Robustness Using Scalable Generator Design</p>
+            <p class="pub-authors"><strong>I. Lee</strong> and W. Lee</p>
+            <p class="pub-venue">
+              <em>IEEE Transactions on Dependable and Secure Computing (<strong>TDSC</strong>)</em>,
+              Vol. 21, No. 2, pp. 732&ndash;745, Mar./Apr. 2024
+            </p>
+            <p class="pub-rank"><span class="rank-badge">JCR 2023 Top 4.9% &nbsp;in CS Software Engineering</span> &nbsp;&middot;&nbsp; Top-tier security journal</p>
+            <div class="pub-tags">
+              <span class="tag">GAN</span><span class="tag">Adversarial Robustness</span><span class="tag">Modulation Classification</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2023 -->
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J3</span>
+            <span class="pub-year">2023</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j4_camp2vec.jpg" alt="Camp2Vec" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Camp2Vec: Embedding Cyber Campaign With ATT&amp;CK Framework for Attack Group Analysis</p>
+            <p class="pub-authors"><strong>I. Lee</strong> and C. Choi</p>
+            <p class="pub-venue"><em>ICT Express</em>, Vol. 9, No. 6, pp. 1065&ndash;1070, Dec. 2023</p>
+            <div class="pub-tags">
+              <span class="tag">MITRE ATT&amp;CK</span><span class="tag">Campaign Embedding</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J2</span>
+            <span class="pub-year">2023</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j3_glove.JPG" alt="GloVe TTP" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Exploiting TTP Co-occurrence via GloVe-Based Embedding With ATT&amp;CK Framework</p>
+            <p class="pub-authors">C. Shin, <strong>I. Lee</strong>, and C. Choi</p>
+            <p class="pub-venue"><em>IEEE Access</em>, Vol. 11, pp. 100823&ndash;100831, Sep. 2023</p>
+            <div class="pub-tags">
+              <span class="tag">GloVe</span><span class="tag">TTP Embedding</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-journal">J1</span>
+            <span class="pub-year">2023</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/j2_ban.JPG" alt="BAN" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">BAN: Predicting APT Attack Based on Bayesian Network With MITRE ATT&amp;CK Framework</p>
+            <p class="pub-authors">Y. Kim, <strong>I. Lee</strong>, H. Kwon, G. Lee, and J. Yoon</p>
+            <p class="pub-venue"><em>IEEE Access</em>, Vol. 11, pp. 91949&ndash;94968, Aug. 2023</p>
+            <div class="pub-tags">
+              <span class="tag">Bayesian Network</span><span class="tag">APT Prediction</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2019 -->
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-conf">C2</span>
+            <span class="pub-year">2019</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/c2_icmla.JPG" alt="ICMLA" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Anomaly Dataset Augmentation Using Sequence Generative Models</p>
+            <p class="pub-authors">S. Shin, <strong>I. Lee</strong>, and C. Choi</p>
+            <p class="pub-venue"><em>IEEE International Conference on Machine Learning and Applications (ICMLA)</em>, Dec. 2019</p>
+            <div class="pub-tags">
+              <span class="tag">SeqGAN</span><span class="tag">Data Augmentation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-conf">C1</span>
+            <span class="pub-year">2019</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/c1_pegan.JPG" alt="ICTC" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Opcode Sequence Amplifier Using Sequence Generative Adversarial Networks</p>
+            <p class="pub-authors">C. Choi, S. Shin, and <strong>I. Lee</strong></p>
+            <p class="pub-venue"><em>International Conference on ICT Convergence (ICTC)</em>, Oct. 2019</p>
+            <div class="pub-tags">
+              <span class="tag">SeqGAN</span><span class="tag">Malware Detection</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== UNDER REVIEW ===== -->
+        <div class="pub-item reveal" data-type="review">
+          <div class="pub-meta">
+            <span class="pub-badge badge-review">Review</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Multi-Domain Side-Channel Analysis for Anomaly Detection in Embedded System</p>
+            <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, J. Kim, H. Oh, H. Kim, and S. Hong</p>
+            <p class="pub-venue">Submitted to <em>IEEE Embedded Systems Letters</em></p>
+            <div class="pub-tags">
+              <span class="tag">Side-Channel</span><span class="tag">Anomaly Detection</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="review">
+          <div class="pub-meta">
+            <span class="pub-badge badge-review">Review</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">TBD (Side-Channel)</p>
+            <p class="pub-authors">J. Baek, G. Ahn, S. Park, D. Bae, G. Kim, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
+            <p class="pub-venue">Submitted to <em>ACM CCS 2026</em></p>
+            <div class="pub-tags">
+              <span class="tag">ACM CCS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== PATENTS ===== -->
+        <div class="pub-item reveal" data-type="patent">
+          <div class="pub-meta">
+            <span class="pub-badge badge-patent">Patent</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Method for Augmenting Cyber Attack Campaign Data to Identify Attack Group, and Security</p>
+            <p class="pub-authors">C. Choi and <strong>I. Lee</strong></p>
+            <p class="pub-venue">Korea Patent Application No. 10-2024-0176082, Dec. 2024</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="patent">
+          <div class="pub-meta">
+            <span class="pub-badge badge-patent">Patent</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Information Identification Method and Electronic Apparatus Thereof</p>
+            <p class="pub-authors">C. Choi, <strong>I. Lee</strong>, C. Shin, and S. Lee</p>
+            <p class="pub-venue">Korea Patent Application No. 10-2024-0006106, Jan. 2024</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="patent">
+          <div class="pub-meta">
+            <span class="pub-badge badge-patent">Patent</span>
+            <span class="pub-year">2023</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Method for Training Attack Prediction Model and Device Therefor</p>
+            <p class="pub-authors">C. Choi, C. Shin, S. Shin, S. Seo, and <strong>I. Lee</strong></p>
+            <p class="pub-venue">U.S. Patent No. US20230308462A1, Sep. 2023</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="patent">
+          <div class="pub-meta">
+            <span class="pub-badge badge-patent">Patent</span>
+            <span class="pub-year">2021</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Apparatus, Method, Computer-readable Storage Medium and Computer Program for Generating Operation Code</p>
+            <p class="pub-authors">C. Choi, S. Shin, and <strong>I. Lee</strong></p>
+            <p class="pub-venue">Korea Patent No. 10-2246797, Apr. 2021</p>
+          </div>
+        </div>
+
+        <!-- ===== DOMESTIC — 연도 역순 ===== -->
+        <div class="pub-item reveal" data-type="domestic">
+          <div class="pub-meta">
+            <span class="pub-badge badge-domestic-c">Conf.</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">EM-Based Anomaly Detection using a Dual-Domain Approach</p>
+            <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
+            <p class="pub-venue"><em>KIISC Winter Conference (CISC-W'25)</em>, Nov. 2025</p>
+            <p class="pub-rank"><span class="rank-badge">Outstanding Paper Award</span></p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="domestic">
+          <div class="pub-meta">
+            <span class="pub-badge badge-domestic-c">Conf.</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">A Statistical Time-Domain Approach to Anomaly Detection for Robotic-Arm MCU</p>
+            <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
+            <p class="pub-venue"><em>KIMST Fall Conference</em>, Nov. 2025</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="domestic">
+          <div class="pub-meta">
+            <span class="pub-badge badge-domestic-c">Conf.</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Reinforcement Learning for Parameter Optimization in CADO-NFS Polynomial Selection</p>
+            <p class="pub-authors">J. Kim, <strong>I. Lee</strong>, C. Jeon, S. Kim, S. Hong, and S. Lee</p>
+            <p class="pub-venue"><em>KIISC Winter Conference (CISC-W'25)</em>, Nov. 2025</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="domestic">
+          <div class="pub-meta">
+            <span class="pub-badge badge-domestic-j">Journal</span>
+            <span class="pub-year">2025</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Enhanced DDoS Detection via Traffic Volume-Based Labeling and Transfer Learning</p>
+            <p class="pub-authors">H. Park and <strong>I. Lee</strong><sup>†</sup></p>
+            <p class="pub-venue"><em>Journal of Internet Computing and Services (JICS)</em>, Vol. 26, No. 4, pp. 1&ndash;8, Aug. 2025</p>
+          </div>
+        </div>
+
+        <div class="pub-item reveal" data-type="domestic">
+          <div class="pub-meta">
+            <span class="pub-badge badge-domestic-j">Journal</span>
+            <span class="pub-year">2024</span>
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">User Behavior Embedding via TF-IDF-BVC for Web Shell Detection</p>
+            <p class="pub-authors">K. Kim and <strong>I. Lee</strong><sup>†</sup></p>
+            <p class="pub-venue"><em>Journal of The Korea Institute of Information Security &amp; Cryptology (JKIISC)</em>, Vol. 34, No. 6, pp. 1231&ndash;1238, Dec. 2024</p>
+          </div>
+        </div>
+
+      </div><!-- /pub-list -->
+    </div>
+  </section>
+
+
+  <!-- ======================== AWARDS ======================== -->
+  <section id="awards" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Awards &amp; Honors</h2>
+      <div class="awards-grid">
+
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="award-body">
+            <span class="award-year">Feb 2026</span>
+            <h3>KU Graduate School Achievement Award</h3>
+            <p>Korea University, Seoul, Republic of Korea</p>
+            <a href="files/ku_achievement_awards_2602.jpg" target="_blank" class="award-link">
+              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fa-solid fa-star"></i></div>
+          <div class="award-body">
+            <span class="award-year">Nov 2025</span>
+            <h3>Outstanding Paper Award</h3>
+            <p>CISC-W'25, KIISC</p>
+          </div>
+        </div>
+
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fa-solid fa-medal"></i></div>
+          <div class="award-body">
+            <span class="award-year">Mar 2025</span>
+            <h3>Certificate of Commendation</h3>
+            <p>UAE Ministry of Defense (UAE-ROK Engagement Program)</p>
+            <a href="files/uae_certificate_of_commendation_2503.jpg" target="_blank" class="award-link">
+              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fa-solid fa-award"></i></div>
+          <div class="award-body">
+            <span class="award-year">Mar 2025</span>
+            <h3>Ambassador's Commendation</h3>
+            <p>Embassy of the Republic of Korea to the UAE</p>
+            <a href="files/uae_ambassador_commendation_250311.jpg" target="_blank" class="award-link">
+              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="award-card reveal">
+          <div class="award-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="award-body">
+            <span class="award-year">2014 &ndash; 2018</span>
+            <h3>Full Tuition Scholarship</h3>
+            <p>Ministry of National Defense, Republic of Korea</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SKILLS ======================== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skills-group reveal">
+          <h3><i class="fa-solid fa-robot"></i> AI &amp; Deep Learning</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Diffusion Transformers (DiT)</span>
+            <span class="skill-tag">GANs</span>
+            <span class="skill-tag">LLM Pipelines</span>
+            <span class="skill-tag">Adversarial Robustness</span>
+            <span class="skill-tag">NLP</span>
+          </div>
+        </div>
+
+        <div class="skills-group reveal">
+          <h3><i class="fa-solid fa-lock"></i> Cybersecurity</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">CTI / TTP Extraction</span>
+            <span class="skill-tag">Side-Channel Analysis</span>
+            <span class="skill-tag">RF Signal Analysis</span>
+            <span class="skill-tag">Cryptographic Engineering</span>
+            <span class="skill-tag">Penetration Testing</span>
+          </div>
+        </div>
+
+        <div class="skills-group reveal">
+          <h3><i class="fa-solid fa-code"></i> Languages &amp; Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C / C++</span>
+            <span class="skill-tag">CUDA</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Streamlit</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CONTACT ======================== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Contact</h2>
+      <div class="contact-grid">
+
+        <div class="contact-links reveal">
+          <a href="mailto:islee94@korea.ac.kr" class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>islee94@korea.ac.kr</span>
+          </a>
+          <a href="https://scholar.google.com/citations?user=cTyq1WcAAAAJ&hl=ko&oi=sra" target="_blank" class="contact-item">
+            <i class="fa-brands fa-google-scholar"></i>
+            <span>Google Scholar</span>
+          </a>
+          <a href="https://linkedin.com/in/insuplee" target="_blank" class="contact-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>linkedin.com/in/insuplee</span>
+          </a>
+          <a href="https://orcid.org/0000-0002-9822-9860" target="_blank" class="contact-item">
+            <i class="fa-brands fa-orcid"></i>
+            <span>0000-0002-9822-9860</span>
+          </a>
+        </div>
+
+        <div class="contact-note reveal">
+          <p>
+            I am open to academic collaborations, postdoctoral opportunities, and research discussions
+            in AI security and cybersecurity. Feel free to reach out!
+          </p>
+          <a href="files/cv_insuplee.pdf" class="btn-primary" target="_blank">
+            <i class="fa-regular fa-file-pdf"></i> Download Full CV
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        &copy; 2026 Insup Lee &nbsp;&middot;&nbsp; Korea University
+        &nbsp;&middot;&nbsp;
+        <a href="mailto:islee94@korea.ac.kr">islee94@korea.ac.kr</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
