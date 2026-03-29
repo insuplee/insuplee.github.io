@@ -38,7 +38,7 @@ html {
   scroll-padding-top: var(--nav-h);
 }
 
-#about, #research, #education, #work, #publications, #awards, #skills, #contact {
+#about, #news, #research, #education, #teaching, #work, #publications, #awards, #contact {
   scroll-margin-top: var(--nav-h);
 }
 
@@ -243,7 +243,7 @@ strong { font-weight: 600; }
    HERO
    ============================================================ */
 .hero {
-  min-height: 100vh;
+  min-height: 85vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -327,6 +327,11 @@ strong { font-weight: 600; }
   font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 6px;
+}
+.hero-expected {
+  font-size: 0.92rem;
+  font-weight: 400;
+  color: var(--text-light);
 }
 
 .hero-affil {
@@ -492,6 +497,118 @@ strong { font-weight: 600; }
   font-size: 0.78rem;
   color: var(--text-muted);
   font-weight: 500;
+}
+
+/* ============================================================
+   TEACHING
+   ============================================================ */
+.teaching-subtitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 32px 0 12px;
+}
+.teaching-subtitle:first-of-type {
+  margin-top: 0;
+}
+.teaching-list {
+  max-width: 780px;
+  margin: 0 auto 24px;
+}
+.teaching-item {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.teaching-item:last-child {
+  border-bottom: none;
+}
+.teaching-role {
+  flex-shrink: 0;
+  width: 80px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+.teaching-detail {
+  flex: 1;
+}
+.teaching-detail p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.teaching-org {
+  font-size: 0.85rem !important;
+  color: var(--text-muted);
+}
+.teaching-period {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .teaching-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .teaching-role, .teaching-period {
+    width: auto;
+  }
+}
+
+/* ============================================================
+   NEWS
+   ============================================================ */
+.news-list {
+  max-width: 780px;
+  margin: 0 auto;
+}
+.news-item {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.news-item:last-child {
+  border-bottom: none;
+}
+.news-date {
+  flex-shrink: 0;
+  width: 90px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+.news-item p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text);
+}
+.news-item a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--t) var(--ease);
+}
+.news-item a:hover {
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 600px) {
+  .news-item {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .news-date {
+    width: auto;
+  }
 }
 
 /* ============================================================
