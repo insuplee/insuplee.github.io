@@ -11,6 +11,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* CSS-only pub tab filter */
+    .pub-radio { display: none; }
+    .pub-tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 36px 0 24px; }
+    .pub-tab { cursor: pointer; }
+
+    /* Hide all groups by default */
+    .pub-group-paper,
+    .pub-group-review,
+    .pub-group-patent,
+    .pub-group-domestic { display: none; }
+
+    /* Show matching group */
+    #filter-paper:checked  ~ .pub-group-paper,
+    #filter-review:checked ~ .pub-group-review,
+    #filter-patent:checked ~ .pub-group-patent,
+    #filter-domestic:checked ~ .pub-group-domestic { display: flex; }
+
+    /* Active tab style */
+    #filter-paper:checked  ~ .pub-tabs label[for="filter-paper"],
+    #filter-review:checked ~ .pub-tabs label[for="filter-review"],
+    #filter-patent:checked ~ .pub-tabs label[for="filter-patent"],
+    #filter-domestic:checked ~ .pub-tabs label[for="filter-domestic"] {
+      background: var(--accent); border-color: var(--accent); color: #fff;
+    }
+  </style>
 </head>
 <body>
 
@@ -287,14 +313,21 @@
   <section id="publications" class="section">
     <div class="container">
       <h2 class="section-title reveal visible">Publications</h2>
+
+      <!-- CSS-only tab filter -->
+      <input type="radio" name="pub-filter" id="filter-paper" class="pub-radio" checked />
+      <input type="radio" name="pub-filter" id="filter-review" class="pub-radio" />
+      <input type="radio" name="pub-filter" id="filter-patent" class="pub-radio" />
+      <input type="radio" name="pub-filter" id="filter-domestic" class="pub-radio" />
+
       <div class="pub-tabs reveal visible">
-        <button class="pub-tab active" data-filter="paper">International Papers</button>
-        <button class="pub-tab" data-filter="review">Under Review</button>
-        <button class="pub-tab" data-filter="patent">Patents</button>
-        <button class="pub-tab" data-filter="domestic">Domestic Papers</button>
+        <label for="filter-paper" class="pub-tab">International Papers</label>
+        <label for="filter-review" class="pub-tab">Under Review</label>
+        <label for="filter-patent" class="pub-tab">Patents</label>
+        <label for="filter-domestic" class="pub-tab">Domestic Papers</label>
       </div>
 
-      <div class="pub-list">
+      <div class="pub-list pub-group-paper">
 
         <!-- ===== PAPERS: sorted newest first (journal + conference mixed) ===== -->
 
@@ -548,8 +581,10 @@
           </div>
         </div>
 
+      </div>
+      <div class="pub-list pub-group-review">
         <!-- ===== UNDER REVIEW ===== -->
-        <div class="pub-item reveal visible" data-type="review" style="display:none">
+        <div class="pub-item reveal visible" data-type="review">
           <div class="pub-meta">
             <span class="pub-badge badge-review">Review</span>
             <span class="pub-year">2026</span>
@@ -564,7 +599,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="review" style="display:none">
+        <div class="pub-item reveal visible" data-type="review">
           <div class="pub-meta">
             <span class="pub-badge badge-review">Review</span>
             <span class="pub-year">2026</span>
@@ -579,7 +614,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="review" style="display:none">
+        <div class="pub-item reveal visible" data-type="review">
           <div class="pub-meta">
             <span class="pub-badge badge-review">Review</span>
             <span class="pub-year">2026</span>
@@ -594,8 +629,10 @@
           </div>
         </div>
 
+      </div>
+      <div class="pub-list pub-group-patent">
         <!-- ===== PATENTS ===== -->
-        <div class="pub-item reveal visible" data-type="patent" style="display:none">
+        <div class="pub-item reveal visible" data-type="patent">
           <div class="pub-meta">
             <span class="pub-badge badge-patent">Patent</span>
             <span class="pub-year">2024</span>
@@ -607,7 +644,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="patent" style="display:none">
+        <div class="pub-item reveal visible" data-type="patent">
           <div class="pub-meta">
             <span class="pub-badge badge-patent">Patent</span>
             <span class="pub-year">2024</span>
@@ -619,7 +656,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="patent" style="display:none">
+        <div class="pub-item reveal visible" data-type="patent">
           <div class="pub-meta">
             <span class="pub-badge badge-patent">Patent</span>
             <span class="pub-year">2023</span>
@@ -631,7 +668,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="patent" style="display:none">
+        <div class="pub-item reveal visible" data-type="patent">
           <div class="pub-meta">
             <span class="pub-badge badge-patent">Patent</span>
             <span class="pub-year">2021</span>
@@ -643,8 +680,10 @@
           </div>
         </div>
 
+      </div>
+      <div class="pub-list pub-group-domestic">
         <!-- ===== DOMESTIC — 연도 역순 ===== -->
-        <div class="pub-item reveal visible" data-type="domestic" style="display:none">
+        <div class="pub-item reveal visible" data-type="domestic">
           <div class="pub-meta">
             <span class="pub-badge badge-domestic-c">Conf.</span>
             <span class="pub-year">2025</span>
@@ -657,7 +696,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="domestic" style="display:none">
+        <div class="pub-item reveal visible" data-type="domestic">
           <div class="pub-meta">
             <span class="pub-badge badge-domestic-c">Conf.</span>
             <span class="pub-year">2025</span>
@@ -669,7 +708,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="domestic" style="display:none">
+        <div class="pub-item reveal visible" data-type="domestic">
           <div class="pub-meta">
             <span class="pub-badge badge-domestic-c">Conf.</span>
             <span class="pub-year">2025</span>
@@ -681,7 +720,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="domestic" style="display:none">
+        <div class="pub-item reveal visible" data-type="domestic">
           <div class="pub-meta">
             <span class="pub-badge badge-domestic-j">Journal</span>
             <span class="pub-year">2025</span>
@@ -693,7 +732,7 @@
           </div>
         </div>
 
-        <div class="pub-item reveal visible" data-type="domestic" style="display:none">
+        <div class="pub-item reveal visible" data-type="domestic">
           <div class="pub-meta">
             <span class="pub-badge badge-domestic-j">Journal</span>
             <span class="pub-year">2024</span>
