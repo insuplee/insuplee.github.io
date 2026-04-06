@@ -36,6 +36,12 @@
     #filter-domestic:checked ~ .pub-tabs label[for="filter-domestic"] {
       background: var(--accent); border-color: var(--accent); color: #fff;
     }
+
+    /* Venue conference/journal names - crimson highlight */
+    .pub-venue strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
@@ -331,7 +337,7 @@
 
         <!-- ===== PAPERS: sorted newest first (journal + conference mixed) ===== -->
 
-        <!-- 2026 -->
+        <div class="pub-year-divider">2026</div>
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-conf">C3</span>
@@ -344,9 +350,11 @@
             <p class="pub-title">Exploiting Per-Core Leakage: Electromagnetic Side-Channel Monitoring of Multicore Architectures</p>
             <p class="pub-authors">D. Bae, S. Park, <strong>I. Lee</strong>, Y. Jung, K. Lee, H. Kim, and S. Hong</p>
             <p class="pub-venue">
-              <em>ACM/IEEE Design Automation Conference (<strong>DAC</strong>)</em>, Jul. 2026
+              <strong>ACM/IEEE Design Automation Conference (DAC)</strong>, Jul. 2026
             </p>
-            <p class="pub-rank"><span class="rank-badge">BK21+ IF: 3</span> &nbsp;&middot;&nbsp; Top-tier EDA/Hardware Conference</p>
+            <div class="pub-links">
+              <a href="#" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
+            </div>
             <div class="pub-tags">
               <span class="tag">EM Side-Channel</span><span class="tag">Multicore</span><span class="tag">Hardware Security</span>
             </div>
@@ -365,7 +373,7 @@
             <p class="pub-title">LeakDiT: Diffusion Transformers for Trace-Augmented Side-Channel Analysis</p>
             <p class="pub-authors"><strong>I. Lee</strong>, D. Bae, S. Hong, and S. Lee</p>
             <p class="pub-venue">
-              <em>IEEE Computer Architecture Letters</em>, Vol. 25, No. 1, pp. 5&ndash;8, Jan./Jun. 2026
+              IEEE Computer Architecture Letters, Vol. 25, No. 1, pp. 5&ndash;8, Jan./Jun. 2026
             </p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/11271780" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
@@ -378,7 +386,7 @@
           </div>
         </div>
 
-        <!-- 2025 -->
+        <div class="pub-year-divider">2025</div>
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-journal">J7</span>
@@ -390,7 +398,7 @@
           <div class="pub-content">
             <p class="pub-title">Multi-Step LLM Pipeline for Enhancing TTP Extraction in Cyber Threat Intelligence</p>
             <p class="pub-authors">H. Kim, D. Lee, <strong>I. Lee</strong>, S. Lee, and S. Lee</p>
-            <p class="pub-venue"><em>IEEE Access</em>, Vol. 13, pp. 179696&ndash;179710, Oct. 2025</p>
+            <p class="pub-venue">IEEE Access, Vol. 13, pp. 179696&ndash;179710, Oct. 2025</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/11205489" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -411,7 +419,7 @@
           <div class="pub-content">
             <p class="pub-title">Enhancing Modulation Classification via Diffusion Transformers for Drone Video Signal Processing</p>
             <p class="pub-authors"><strong>I. Lee</strong>, K. Alteneiji, and M. Alghfeli</p>
-            <p class="pub-venue"><em>IEEE Signal Processing Letters</em>, Vol. 32, pp. 3325&ndash;3329, Aug. 2025</p>
+            <p class="pub-venue">IEEE Signal Processing Letters, Vol. 32, pp. 3325&ndash;3329, Aug. 2025</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/11125498" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -433,10 +441,9 @@
             <p class="pub-title">MuCamp: Generating Cyber Campaign Variants via TTP Synonym Replacement for Group Attribution</p>
             <p class="pub-authors"><strong>I. Lee</strong> and C. Choi</p>
             <p class="pub-venue">
-              <em>IEEE Transactions on Information Forensics and Security (<strong>TIFS</strong>)</em>,
+              <strong>IEEE Transactions on Information Forensics and Security (TIFS)</strong>,
               Vol. 20, pp. 6162&ndash;6174, Jun. 2025
             </p>
-            <p class="pub-rank"><span class="rank-badge">JCR 2024 Top 7.8% &nbsp;in CS, Theory &amp; Methods</span> &nbsp;&middot;&nbsp; Top-tier Security Journal</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/11029111" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
               <a href="files/2025_mucamp_tifs.pdf" target="_blank" class="pub-link"><i class="fa-regular fa-file-pdf fa-xs"></i> PDF</a>
@@ -447,7 +454,7 @@
           </div>
         </div>
 
-        <!-- 2024 -->
+        <div class="pub-year-divider">2024</div>
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-journal">J4</span>
@@ -460,10 +467,9 @@
             <p class="pub-title">UniQGAN: Towards Improved Modulation Classification With Adversarial Robustness Using Scalable Generator Design</p>
             <p class="pub-authors"><strong>I. Lee</strong> and W. Lee</p>
             <p class="pub-venue">
-              <em>IEEE Transactions on Dependable and Secure Computing (<strong>TDSC</strong>)</em>,
+              <strong>IEEE Transactions on Dependable and Secure Computing (TDSC)</strong>,
               Vol. 21, No. 2, pp. 732&ndash;745, Mar./Apr. 2024
             </p>
-            <p class="pub-rank"><span class="rank-badge">JCR 2023 Top 4.9% &nbsp;in CS, Software Engineering</span> &nbsp;&middot;&nbsp; Top-tier Security Journal</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/10081390" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
               <a href="files/2023_uniqgan-adv_tdsc.pdf" target="_blank" class="pub-link"><i class="fa-regular fa-file-pdf fa-xs"></i> PDF</a>
@@ -474,7 +480,7 @@
           </div>
         </div>
 
-        <!-- 2023 -->
+        <div class="pub-year-divider">2023</div>
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-journal">J3</span>
@@ -486,7 +492,7 @@
           <div class="pub-content">
             <p class="pub-title">Camp2Vec: Embedding Cyber Campaign With ATT&amp;CK Framework for Attack Group Analysis</p>
             <p class="pub-authors"><strong>I. Lee</strong> and C. Choi</p>
-            <p class="pub-venue"><em>ICT Express</em>, Vol. 9, No. 6, pp. 1065&ndash;1070, Dec. 2023</p>
+            <p class="pub-venue">ICT Express, Vol. 9, No. 6, pp. 1065&ndash;1070, Dec. 2023</p>
             <div class="pub-links">
               <a href="https://www.sciencedirect.com/science/article/pii/S2405959523000620" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -507,7 +513,7 @@
           <div class="pub-content">
             <p class="pub-title">Exploiting TTP Co-occurrence via GloVe-Based Embedding With ATT&amp;CK Framework</p>
             <p class="pub-authors">C. Shin, <strong>I. Lee</strong>, and C. Choi</p>
-            <p class="pub-venue"><em>IEEE Access</em>, Vol. 11, pp. 100823&ndash;100831, Sep. 2023</p>
+            <p class="pub-venue">IEEE Access, Vol. 11, pp. 100823&ndash;100831, Sep. 2023</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/10250779" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -528,7 +534,7 @@
           <div class="pub-content">
             <p class="pub-title">BAN: Predicting APT Attack Based on Bayesian Network With MITRE ATT&amp;CK Framework</p>
             <p class="pub-authors">Y. Kim, <strong>I. Lee</strong>, H. Kwon, G. Lee, and J. Yoon</p>
-            <p class="pub-venue"><em>IEEE Access</em>, Vol. 11, pp. 91949&ndash;94968, Aug. 2023</p>
+            <p class="pub-venue">IEEE Access, Vol. 11, pp. 91949&ndash;94968, Aug. 2023</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/10224262" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -538,7 +544,7 @@
           </div>
         </div>
 
-        <!-- 2019 -->
+        <div class="pub-year-divider">2019</div>
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-conf">C2</span>
@@ -550,7 +556,7 @@
           <div class="pub-content">
             <p class="pub-title">Anomaly Dataset Augmentation Using Sequence Generative Models</p>
             <p class="pub-authors">S. Shin, <strong>I. Lee</strong>, and C. Choi</p>
-            <p class="pub-venue"><em>IEEE International Conference on Machine Learning and Applications (ICMLA)</em>, Dec. 2019</p>
+            <p class="pub-venue">IEEE International Conference on Machine Learning and Applications (ICMLA), Dec. 2019</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/8999325" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -571,7 +577,7 @@
           <div class="pub-content">
             <p class="pub-title">Opcode Sequence Amplifier Using Sequence Generative Adversarial Networks</p>
             <p class="pub-authors">C. Choi, S. Shin, and <strong>I. Lee</strong></p>
-            <p class="pub-venue"><em>International Conference on ICT Convergence (ICTC)</em>, Oct. 2019</p>
+            <p class="pub-venue">International Conference on ICT Convergence (ICTC), Oct. 2019</p>
             <div class="pub-links">
               <a href="https://ieeexplore.ieee.org/document/8940025" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
             </div>
@@ -592,7 +598,7 @@
           <div class="pub-content">
             <p class="pub-title">Preserving Statistical Leakage Structure in Side-Channel Trace Generation via Domain-Specific Diffusion Transformers</p>
             <p class="pub-authors"><strong>I. Lee</strong>, D. Bae, G. Kim, I. Lee, S. Hong, and S. Lee</p>
-            <p class="pub-venue">Submitted to <em>IEEE Transactions on Information Forensics and Security (TIFS)</em></p>
+            <p class="pub-venue">Submitted to IEEE Transactions on Information Forensics and Security (TIFS)</p>
             <div class="pub-tags">
               <span class="tag">Diffusion Transformer</span><span class="tag">Side-Channel</span><span class="tag">Data Augmentation</span>
             </div>
@@ -607,7 +613,7 @@
           <div class="pub-content">
             <p class="pub-title">Multi-Domain Side-Channel Analysis for Anomaly Detection in Embedded System</p>
             <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, J. Kim, H. Oh, H. Kim, and S. Hong</p>
-            <p class="pub-venue">Submitted to <em>IEEE Embedded Systems Letters</em></p>
+            <p class="pub-venue">Submitted to IEEE Embedded Systems Letters</p>
             <div class="pub-tags">
               <span class="tag">Side-Channel</span><span class="tag">Anomaly Detection</span>
             </div>
@@ -622,7 +628,7 @@
           <div class="pub-content">
             <p class="pub-title">(Blind Review)</p>
             <p class="pub-authors">J. Baek, G. Ahn, S. Park, D. Bae, G. Kim, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
-            <p class="pub-venue">Submitted to <em>ACM CCS 2026</em></p>
+            <p class="pub-venue">Submitted to ACM CCS 2026</p>
             <div class="pub-tags">
               <span class="tag">ACM CCS</span>
             </div>
@@ -691,7 +697,7 @@
           <div class="pub-content">
             <p class="pub-title">EM-Based Anomaly Detection using a Dual-Domain Approach</p>
             <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
-            <p class="pub-venue"><em>KIISC Winter Conference (CISC-W'25)</em>, Nov. 2025</p>
+            <p class="pub-venue">KIISC Winter Conference (CISC-W'25), Nov. 2025</p>
             <p class="pub-rank"><span class="rank-badge">Outstanding Paper Award</span></p>
           </div>
         </div>
@@ -704,7 +710,7 @@
           <div class="pub-content">
             <p class="pub-title">A Statistical Time-Domain Approach to Anomaly Detection for Robotic-Arm MCU</p>
             <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
-            <p class="pub-venue"><em>KIMST Fall Conference</em>, Nov. 2025</p>
+            <p class="pub-venue">KIMST Fall Conference, Nov. 2025</p>
           </div>
         </div>
 
@@ -716,7 +722,7 @@
           <div class="pub-content">
             <p class="pub-title">Reinforcement Learning for Parameter Optimization in CADO-NFS Polynomial Selection</p>
             <p class="pub-authors">J. Kim, <strong>I. Lee</strong>, C. Jeon, S. Kim, S. Hong, and S. Lee</p>
-            <p class="pub-venue"><em>KIISC Winter Conference (CISC-W'25)</em>, Nov. 2025</p>
+            <p class="pub-venue">KIISC Winter Conference (CISC-W'25), Nov. 2025</p>
           </div>
         </div>
 
@@ -728,7 +734,7 @@
           <div class="pub-content">
             <p class="pub-title">Enhanced DDoS Detection via Traffic Volume-Based Labeling and Transfer Learning</p>
             <p class="pub-authors">H. Park and <strong>I. Lee</strong><sup>†</sup></p>
-            <p class="pub-venue"><em>Journal of Internet Computing and Services (JICS)</em>, Vol. 26, No. 4, pp. 1&ndash;8, Aug. 2025</p>
+            <p class="pub-venue">Journal of Internet Computing and Services (JICS), Vol. 26, No. 4, pp. 1&ndash;8, Aug. 2025</p>
           </div>
         </div>
 
@@ -740,7 +746,7 @@
           <div class="pub-content">
             <p class="pub-title">User Behavior Embedding via TF-IDF-BVC for Web Shell Detection</p>
             <p class="pub-authors">K. Kim and <strong>I. Lee</strong><sup>†</sup></p>
-            <p class="pub-venue"><em>Journal of The Korea Institute of Information Security &amp; Cryptology (JKIISC)</em>, Vol. 34, No. 6, pp. 1231&ndash;1238, Dec. 2024</p>
+            <p class="pub-venue">Journal of The Korea Institute of Information Security &amp; Cryptology (JKIISC), Vol. 34, No. 6, pp. 1231&ndash;1238, Dec. 2024</p>
           </div>
         </div>
 

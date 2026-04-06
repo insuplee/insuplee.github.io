@@ -747,6 +747,16 @@ strong { font-weight: 600; }
   gap: 12px;
 }
 
+.pub-year-divider {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  padding: 6px 0 2px;
+  margin-top: 8px;
+}
+.pub-year-divider:first-child { margin-top: 0; }
+
 .pub-item {
   background: #fff;
   border: 1.5px solid var(--border);
@@ -797,7 +807,7 @@ strong { font-weight: 600; }
 }
 
 .pub-thumb {
-  width: 170px;
+  width: 150px;
   flex-shrink: 0;
 }
 .pub-thumb img {
