@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="files/islee.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
   <style>
@@ -74,9 +74,9 @@
     <div class="hero-bg"></div>
     <div class="hero-container">
       <div class="hero-text">
-        <div class="hero-badge fade-up visible">
+        <!-- <div class="hero-badge fade-up visible">
           <span class="badge-dot"></span>AI &times; Cybersecurity
-        </div>
+        </div> -->
         <h1 class="hero-name fade-up visible">Insup Lee</h1>
         <p class="hero-title fade-up visible">Ph.D. Candidate in Cybersecurity <span class="hero-expected">(Expected Aug 2026)</span></p>
         <p class="hero-affil fade-up visible">
@@ -115,21 +115,21 @@
         </div>
       </div>
     </div>
-    <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+    <!-- <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
       <i class="fa-solid fa-chevron-down"></i>
-    </a>
+    </a> -->
   </section>
 
   <!-- ======================== ABOUT ======================== -->
-  <section id="about" class="section">
+  <section id="about" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal visible">About Me</h2>
       <div class="about-grid">
         <div class="about-text reveal visible">
           <p>
-            I am an <strong>AI &amp; Security Researcher</strong> based in both the UAE and South Korea.
-            My approach to security research is built on <strong>five years of experience</strong> at the
-            Agency for Defense Development (ADD), as well as international joint projects with the
+            I am an <strong>AI &amp; Security Researcher</strong> at Korea University.
+            My approach to security research is built on five years of experience at the
+            <strong>Agency for Defense Development (ADD)</strong>, as well as international joint projects with the
             <strong>UAE Ministry of Defense</strong>.
           </p>
           <p>
@@ -143,25 +143,21 @@
             <strong>uncovering the inherent vulnerabilities within LLMs and agentic AI systems</strong>,
             applying my structural understanding of generative models to ensure their trustworthiness.
           </p>
-          <div class="service-row">
-            <span class="service-label">Reviewer:</span>
-            <div class="service-venues">
-              <span class="tag">IEEE TDSC</span>
-              <span class="tag">IEEE TIFS</span>
-              <span class="tag">IEEE TCOM</span>
-              <span class="tag">IEEE JSAC</span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ======================== NEWS ======================== -->
-  <section id="news" class="section section-alt">
+  <section id="news" class="section">
     <div class="container">
       <h2 class="section-title reveal visible">News</h2>
       <div class="news-list reveal visible">
+
+        <div class="news-item">
+          <span class="news-date">Apr 2026</span>
+          <p>Our paper on hardware wallet side-channel attacks has been accepted to <a href="https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html" target="_blank">ACM CCS 2026</a>.</p>
+        </div>
 
         <div class="news-item">
           <span class="news-date">Feb 2026</span>
@@ -225,10 +221,10 @@
   </section>
 
   <!-- ======================== EDUCATION ======================== -->
-  <section id="education" class="section">
+  <section id="education" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal visible">Education</h2>
-      <div class="timeline" style="margin-top:40px;">
+      <div class="timeline">
 
         <div class="timeline-item reveal visible">
           <div class="timeline-marker timeline-marker--edu"></div>
@@ -237,8 +233,8 @@
             <h4>Ph.D. Candidate in Cybersecurity</h4>
             <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
             <p>
-              <em>Domain-Specific Generative Models for Data Augmentation in Multi-Layer Cybersecurity</em><br />
-              Advisors: Prof. Sangjin Lee &amp; Prof. Seokhie Hong &nbsp;|&nbsp; Expected: Aug 2026
+              Topic: <em>Domain-Specific Generative Models for Data Augmentation in Cybersecurity</em><br />
+              Advisors: Prof. Sangjin Lee &amp; Prof. Seokhie Hong
             </p>
           </div>
         </div>
@@ -249,7 +245,7 @@
             <span class="timeline-period">Mar 2014 &ndash; Feb 2018</span>
             <h4>B.E. in Cyber Defense</h4>
             <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
-            <p>Full Tuition Scholarship, Ministry of National Defense &nbsp;|&nbsp; Advisor: Prof. Jongin Lim</p>
+            <p>Full Tuition Scholarship, Ministry of National Defense</p>
           </div>
         </div>
 
@@ -258,10 +254,10 @@
   </section>
 
   <!-- ======================== WORK ======================== -->
-  <section id="work" class="section section-alt">
+  <section id="work" class="section">
     <div class="container">
-      <h2 class="section-title reveal visible">Employment History</h2>
-      <div class="timeline" style="margin-top:40px;">
+      <h2 class="section-title reveal visible">Work Experience</h2>
+      <div class="timeline">
 
         <div class="timeline-item reveal visible">
           <div class="timeline-marker"></div>
@@ -269,7 +265,7 @@
             <span class="timeline-period">Sep 2025 &ndash; Feb 2026</span>
             <h4>Lecturer</h4>
             <p class="timeline-org">Korea University, Seoul, Republic of Korea</p>
-            <p>Taught graduate-level course in Computer Networks.</p>
+            <!-- <p>Taught graduate-level course in Computer Networks.</p> -->
           </div>
         </div>
 
@@ -278,8 +274,8 @@
           <div class="timeline-card">
             <span class="timeline-period">Mar 2025 &ndash; Jun 2025</span>
             <h4>Research Intern</h4>
-            <p class="timeline-org">Indiana University Bloomington, IN, USA (Remote)</p>
-            <p>Explored adversarial attacks on ML systems in autonomous vehicles (Advisor: Prof. Hyungsub Kim).</p>
+            <p class="timeline-org">Indiana University Bloomington, Bloomington, IN, USA (Remote)</p>
+            <!-- <p>Explored adversarial attacks on ML systems in autonomous vehicles (Advisor: Prof. Hyungsub Kim).</p> -->
           </div>
         </div>
 
@@ -289,11 +285,13 @@
             <span class="timeline-period">Aug 2023 &ndash; May 2025</span>
             <h4>Research Engineer (Cyber Officer)</h4>
             <p class="timeline-org">Ministry of National Defense, Republic of Korea / UAE</p>
+            <!--
             <ul>
               <li>Led international joint research on AI-based security with the UAE Ministry of Defense as PI</li>
               <li>Investigated AI-based RF signal analysis for drone security [J6]</li>
               <li>Taught cybersecurity courses (Penetration Testing) to UAE cyber defense personnel</li>
             </ul>
+            -->
           </div>
         </div>
 
@@ -303,11 +301,13 @@
             <span class="timeline-period">Jul 2018 &ndash; Jul 2023</span>
             <h4>Researcher</h4>
             <p class="timeline-org">Agency for Defense Development (ADD), Seoul, Republic of Korea</p>
+            <!--
             <ul>
               <li>Conducted AI-based security research and in-house software development (PI/Mentor: Prof. Changhee Choi)</li>
               <li>Analyzed nation-sponsored cyber attacks using NLP technologies [J1&ndash;J3, J5]</li>
               <li>Applied generative models for cybersecurity data augmentation [C1, C2]</li>
             </ul>
+            -->
           </div>
         </div>
 
@@ -316,7 +316,7 @@
   </section>
 
   <!-- ======================== PUBLICATIONS ======================== -->
-  <section id="publications" class="section">
+  <section id="publications" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal visible">Publications</h2>
 
@@ -338,6 +338,29 @@
         <!-- ===== PAPERS: sorted newest first (journal + conference mixed) ===== -->
 
         <div class="pub-year-divider">2026</div>
+        <div class="pub-item reveal visible" data-type="paper">
+          <div class="pub-meta">
+            <span class="pub-badge badge-conf">C4</span>
+            <span class="pub-year">2026</span>
+          </div>
+          <div class="pub-thumb">
+            <img src="files/c4_mnemonic.jpg" alt="Mnemonic Hack" loading="lazy" />
+          </div>
+          <div class="pub-content">
+            <p class="pub-title">Mnemonic Hack: Recovering the Master Seed from Bitcoin Hardware Wallets via Side-Channel Attacks</p>
+            <p class="pub-authors">J. Baek, G. Ahn, S. Park, D. Bae, G. Kim, <strong>I. Lee</strong>, S. Hong, and H. Kim</p>
+            <p class="pub-venue">
+              <strong>ACM Conference on Computer and Communications Security (CCS)</strong>, Nov. 2026
+            </p>
+            <div class="pub-links">
+              <a href="#" target="_blank" class="pub-link"><i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i> Paper</a>
+            </div>
+            <div class="pub-tags">
+              <span class="tag">Side-Channel</span><span class="tag">Bitcoin</span><span class="tag">Hardware Wallet</span>
+            </div>
+          </div>
+        </div>
+
         <div class="pub-item reveal visible" data-type="paper">
           <div class="pub-meta">
             <span class="pub-badge badge-conf">C3</span>
@@ -611,11 +634,11 @@
             <span class="pub-year">2026</span>
           </div>
           <div class="pub-content">
-            <p class="pub-title">Multi-Domain Side-Channel Analysis for Anomaly Detection in Embedded System</p>
-            <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, J. Kim, H. Oh, H. Kim, and S. Hong</p>
-            <p class="pub-venue">Submitted to IEEE Embedded Systems Letters</p>
+            <p class="pub-title">MuCamp2: Generating Validated Cyber Campaign Variants via Constrained LLMs for Group Attribution</p>
+            <p class="pub-authors">K. Kim, J. Lee, <strong>I. Lee</strong>, I. Han, J. Lee, S. Shim, and C. Choi</p>
+            <p class="pub-venue">Submitted to IEEE Access</p>
             <div class="pub-tags">
-              <span class="tag">Side-Channel</span><span class="tag">Anomaly Detection</span>
+              <span class="tag">LLM</span><span class="tag">Cyber Campaign</span><span class="tag">Threat Attribution</span>
             </div>
           </div>
         </div>
@@ -626,11 +649,11 @@
             <span class="pub-year">2026</span>
           </div>
           <div class="pub-content">
-            <p class="pub-title">(Blind Review)</p>
-            <p class="pub-authors">J. Baek, G. Ahn, S. Park, D. Bae, G. Kim, <strong>I. Lee</strong>, H. Kim, and S. Hong</p>
-            <p class="pub-venue">Submitted to ACM CCS 2026</p>
+            <p class="pub-title">Multi-Domain Side-Channel Analysis for Anomaly Detection in Embedded System</p>
+            <p class="pub-authors">S. Park, D. Bae, <strong>I. Lee</strong>, J. Kim, H. Oh, H. Kim, and S. Hong</p>
+            <p class="pub-venue">Submitted to IEEE Embedded Systems Letters</p>
             <div class="pub-tags">
-              <span class="tag">ACM CCS</span>
+              <span class="tag">Side-Channel</span><span class="tag">Anomaly Detection</span>
             </div>
           </div>
         </div>
@@ -792,71 +815,51 @@
   -->
 
   <!-- ======================== AWARDS ======================== -->
-  <section id="awards" class="section section-alt">
+  <section id="awards" class="section">
     <div class="container">
       <h2 class="section-title reveal visible">Awards &amp; Honors</h2>
-      <div class="awards-grid">
-
-        <div class="award-card reveal visible">
-          <div class="award-icon"><i class="fa-solid fa-trophy"></i></div>
-          <div class="award-body">
-            <span class="award-year">Feb 2026</span>
-            <h3>KU Graduate School Achievement Award</h3>
-            <p>Korea University, Seoul, Republic of Korea</p>
-            <a href="files/ku_achievement_awards_2602.jpg" target="_blank" class="award-link">
-              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
-            </a>
+      <div class="teaching-list reveal visible">
+        <div class="teaching-item">
+          <div class="teaching-detail">
+            <p><strong>KU Graduate School Achievement Award</strong></p>
+            <p class="teaching-org">Korea University, Seoul, Republic of Korea &nbsp;<a href="files/ku_achievement_awards_2602.jpg" target="_blank" class="award-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
           </div>
+          <span class="teaching-period">Feb 2026</span>
         </div>
-
-        <div class="award-card reveal visible">
-          <div class="award-icon"><i class="fa-solid fa-star"></i></div>
-          <div class="award-body">
-            <span class="award-year">Nov 2025</span>
-            <h3>Outstanding Paper Award</h3>
-            <p>CISC-W'25, KIISC</p>
+        <div class="teaching-item">
+          <div class="teaching-detail">
+            <p><strong>Outstanding Paper Award</strong></p>
+            <p class="teaching-org">CISC-W'25, KIISC</p>
           </div>
+          <span class="teaching-period">Nov 2025</span>
         </div>
-
-        <div class="award-card reveal visible">
-          <div class="award-icon"><i class="fa-solid fa-medal"></i></div>
-          <div class="award-body">
-            <span class="award-year">Mar 2025</span>
-            <h3>Certificate of Commendation</h3>
-            <p>UAE Ministry of Defense (UAE-ROK Engagement Program)</p>
-            <a href="files/uae_certificate_of_commendation_2503.jpg" target="_blank" class="award-link">
-              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
-            </a>
+        <div class="teaching-item">
+          <div class="teaching-detail">
+            <p><strong>Certificate of Commendation</strong></p>
+            <p class="teaching-org">UAE Ministry of Defense (UAE-ROK Engagement Program) &nbsp;<a href="files/uae_certificate_of_commendation_2503.jpg" target="_blank" class="award-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
           </div>
+          <span class="teaching-period">Mar 2025</span>
         </div>
-
-        <div class="award-card reveal visible">
-          <div class="award-icon"><i class="fa-solid fa-award"></i></div>
-          <div class="award-body">
-            <span class="award-year">Mar 2025</span>
-            <h3>Ambassador's Commendation</h3>
-            <p>Embassy of the Republic of Korea to the UAE</p>
-            <a href="files/uae_ambassador_commendation_250311.jpg" target="_blank" class="award-link">
-              View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i>
-            </a>
+        <div class="teaching-item">
+          <div class="teaching-detail">
+            <p><strong>Ambassador's Commendation</strong></p>
+            <p class="teaching-org">Embassy of the Republic of Korea to the UAE &nbsp;<a href="files/uae_ambassador_commendation_250311.jpg" target="_blank" class="award-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></p>
           </div>
+          <span class="teaching-period">Mar 2025</span>
         </div>
-
-        <div class="award-card reveal visible">
-          <div class="award-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <div class="award-body">
-            <span class="award-year">2014 &ndash; 2018</span>
-            <h3>Full Tuition Scholarship</h3>
-            <p>Ministry of National Defense, Republic of Korea</p>
+        <div class="teaching-item">
+          <div class="teaching-detail">
+            <p><strong>Full Tuition Scholarship</strong></p>
+            <p class="teaching-org">Ministry of National Defense, Republic of Korea</p>
           </div>
+          <span class="teaching-period">2014 &ndash; 2018</span>
         </div>
-
       </div>
     </div>
   </section>
 
   <!-- ======================== TEACHING ======================== -->
-  <section id="teaching" class="section">
+  <section id="teaching" class="section section-alt">
     <div class="container">
       <h2 class="section-title reveal visible">Teaching &amp; Mentoring</h2>
 
@@ -919,8 +922,76 @@
     </div>
   </section>
 
+  <!-- ======================== PROFESSIONAL SERVICE ======================== -->
+  <section id="service" class="section">
+    <div class="container">
+      <h2 class="section-title reveal visible">Professional Service</h2>
+      <h3 class="teaching-subtitle reveal visible">Reviewer</h3>
+      <div class="teaching-list reveal visible">
+        <div class="teaching-item">
+          <span class="teaching-role">IEEE TDSC</span>
+          <div class="teaching-detail">
+            <p>IEEE Transactions on Dependable and Secure Computing</p>
+          </div>
+          <span class="teaching-period">2025</span>
+        </div>
+        <div class="teaching-item">
+          <span class="teaching-role">IEEE TIFS</span>
+          <div class="teaching-detail">
+            <p>IEEE Transactions on Information Forensics and Security</p>
+          </div>
+          <span class="teaching-period">2026</span>
+        </div>
+        <div class="teaching-item">
+          <span class="teaching-role">IEEE TCOM</span>
+          <div class="teaching-detail">
+            <p>IEEE Transactions on Communications</p>
+          </div>
+          <span class="teaching-period">2025, 2026</span>
+        </div>
+        <div class="teaching-item">
+          <span class="teaching-role">IEEE JSAC</span>
+          <div class="teaching-detail">
+            <p>IEEE Journal on Selected Areas in Communications</p>
+          </div>
+          <span class="teaching-period">2025, 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== OTHER EXPERIENCE ======================== -->
+  <section id="other" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal visible">Other Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal visible">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Apr 2024 &ndash; Aug 2024</span>
+            <h4>AI Cyber Challenge (AIxCC)</h4>
+            <p class="timeline-org">DARPA and ARPA-H, USA</p>
+            <p>Participated in the semifinal round as a member of Team KORIA, submitting a cyber reasoning system that leverages LLMs for automated detection and patching of software vulnerabilities.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal visible">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <span class="timeline-period">Jun 2017 &ndash; May 2018</span>
+            <h4>SW Outsourcing Development</h4>
+            <p class="timeline-org">KCMVP-Certified Cryptographic Module</p>
+            <p>Implemented a cryptographic module with 25,000 LoC in C &ndash; ARIA block cipher (ECB, CBC, CTR), hash functions (SHA-256, SHA-512), and HMAC-based DRBG for Windows and Linux.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ======================== CONTACT ======================== -->
-  <section id="contact" class="section section-alt">
+  <section id="contact" class="section">
     <div class="container">
       <h2 class="section-title reveal visible">Contact</h2>
       <div class="contact-grid">
