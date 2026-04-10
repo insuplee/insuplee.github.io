@@ -800,7 +800,7 @@ strong { font-weight: 600; }
 }
 
 .pub-thumb {
-  width: 150px;
+  width: 120px;
   flex-shrink: 0;
 }
 .pub-thumb img {
