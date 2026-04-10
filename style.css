@@ -248,6 +248,7 @@ strong { font-weight: 600; }
   align-items: center;
   background: var(--bg);
   overflow: hidden;
+  padding: 80px 0 56px;
 }
 
 /* Very subtle warm tinted background shapes */
