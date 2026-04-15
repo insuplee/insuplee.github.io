@@ -393,8 +393,8 @@ strong { font-weight: 600; }
 /* Profile photo */
 .photo-ring {
   width: 220px;
-  height: 220px;
-  border-radius: 50%;
+  height: 260px;
+  border-radius: 20px;
   padding: 0;
   background: none;
   box-shadow: var(--shadow-lg);
@@ -403,7 +403,7 @@ strong { font-weight: 600; }
 .photo-ring img {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
+  border-radius: 20px;
   object-fit: cover;
   border: 3px solid #fff;
 }
@@ -1197,7 +1197,7 @@ strong { font-weight: 600; }
   .pub-thumb img { max-height: 200px; }
   .pub-meta { flex-direction: row; }
 
-  .photo-ring { width: 170px; height: 170px; }
+  .photo-ring { width: 170px; height: 200px; }
 }
 
 @media (max-width: 520px) {
