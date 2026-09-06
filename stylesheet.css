@@ -220,14 +220,16 @@ a:visited {
 }*/
 
 a:link {
-  /*color: #d02;*/
-  color: #b02;
+  /*color: #b02;*/
+  /*color: #20d;*/
+  color: #a02;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  /*color: #d02;*/
-  color: #b02;
+  /*color: #b02;*/
+  /*color: #20d;*/
+  color: #a02;
   background-color: transparent;
   text-decoration: none;
 }
