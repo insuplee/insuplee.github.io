@@ -381,7 +381,7 @@ font-weight: 500;
 .titlest{} 
 */
 .bkscore{
-  color:#000;
+  color:#d02;
   /*
    color:#20d;
   color:#fc6a03;*/
@@ -462,11 +462,9 @@ font-weight: 500;
 .targetselected{
 	/*
 	font-weight:bold;
-	color:#000;
+	color:#d02;
 	*/
 	color:#000;
-	font-weight: 500;
-	font-weight:bold;
 	/*
 	color:#d02;
 	color:#00c;
