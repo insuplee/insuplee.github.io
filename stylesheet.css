@@ -428,6 +428,7 @@ font-weight: 500;
 	/*color:#4169e1*/
 	color:#000;
 	font-weight: 500; /* libold 와 톤 맞춤 */
+	text-decoration:underline;
 	/*text-decoration:underline;*/
 	}
 
